@@ -1,0 +1,164 @@
+.nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  outline: none;
+}
+
+.header-nav-link {
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.4;
+  color: #001767;
+  text-decoration: none;
+}
+
+.header-nav-link:hover {
+  color: #34baff;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container {
+  margin-right: 20px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Pangram Sans', sans-serif;
+}
+
+.button-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dropdown-item-icon {
+  margin-right: 8px;
+}
+
+.dropdown-menu {
+  font-family: 'Pangram Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #001767;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu:hover {
+  border: none;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #022a85;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-menu a:hover {
+  color: #116eae;
+  border: none;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.dropdown-menu ul li,
+.dropdown-menu ul li a {
+  list-style-type: none;
+  padding: 10px;
+  border: none;
+}
+
+.link-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.link-with-icon .icon {
+  margin-left: 5px;
+  font-size: 0.75em;
+}
+
+.header-profile-btn {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none;
+  min-width: 100px;
+  border-radius: 5px;
+}
+
+.header-profile-btn--transparent {
+  background-color: transparent;
+  border: 1px solid #cbd5df;
+  color: #0756cc;
+}
+
+.header-profile-btn--filled {
+  background-color: #1a72e6;
+  color: white;
+  border: none;
+}
+
+.header-profile-btn--filled:hover {
+  background-color: #116eae;
+}
+
+.nextui-dropdown-item {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.nextui-dropdown-item:hover {
+  border: none !important;
+  background-color: transparent !important;
+}
