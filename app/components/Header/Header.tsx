@@ -176,16 +176,18 @@ const Header: React.FC = () => {
               </MenuItem>
             ))}
           </Menu>
-          <button
-            className='header-profile-btn header-profile-btn--transparent'
-          >
-            Profile
-          </button>
-          <button
-            className='header-profile-btn header-profile-btn--filled'
-          >
-            Get Browser
-          </button>
+          <div className='header-buttons-wrapper'>
+            <button
+              className='header-profile-btn header-profile-btn--transparent'
+            >
+              Profile
+            </button>
+            <button
+              className='header-profile-btn header-profile-btn--filled'
+            >
+              Get Browser
+            </button>
+          </div>
         </div>
       </nav>
     </>

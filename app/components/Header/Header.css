@@ -162,3 +162,10 @@ button {
   border: none !important;
   background-color: transparent !important;
 }
+
+
+.header-buttons-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

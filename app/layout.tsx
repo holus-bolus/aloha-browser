@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import './reset.css';
 import "./globals.css";
 import React from "react";
 import Header from "@/app/components/Header/Header";
