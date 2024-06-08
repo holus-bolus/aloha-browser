@@ -1,0 +1,30 @@
+.say-hello__image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.say-hello {
+  padding: 140px 0;
+}
+
+.say-hello__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+
+.say-hello__title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.4;
+  color: #001767;
+  letter-spacing: -1.3px;
+}
+
+.say-hello__title-text{
+  color:#34baff;
+}

@@ -20,29 +20,28 @@ const Header: React.FC = () => {
       key: "vpn",
       label: "VPN",
       href: "/features/vpn",
-      icon: "/images/01.svg",
+      icon: "/images/header/01.svg",
     },
     {
       key: "adblock",
       label: "AdBlock",
       href: "/features/adblock",
-      icon: "/images/02.svg",
+      icon: "/images/header/02.svg",
     },
     {
       key: "privacy",
       label: "Privacy",
       href: "/features/privacy",
-      icon: "/images/03.svg",
+      icon: "/images/header/03.svg",
     },
     {
       key: "wallet",
       label: "Wallet",
       href: "/features/wallet",
-      icon: "/images/04.svg",
+      icon: "/images/header/04.svg",
     },
     { key: "others", label: "Others", href: "/features/others" },
   ];
-
   const languageItems = [
     { key: "english", label: "English", href: "/locale/en" },
     { key: "deutsch", label: "Deutsch", href: "/locale/de" },
@@ -71,7 +70,7 @@ const Header: React.FC = () => {
         <div className="nav-menu-wrapper">
           <Link href="/" className="nav-logo">
             <Image
-              src="/images/aloha-logo.svg"
+              src="/images/header/aloha-logo.svg"
               alt="Logo"
               width={120}
               height={40}

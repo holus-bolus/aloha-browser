@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import "./hero.css";
+import SayHello from "@/app/components/SayHello/SayHello";
 
 export default function Home() {
   const handleButtonClick = () => {
@@ -59,6 +60,7 @@ export default function Home() {
           height="800"
         />
       </div>
+      <SayHello />
     </main>
   );
 }
