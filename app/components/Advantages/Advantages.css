@@ -2,16 +2,21 @@
   padding: 150px 0;
 }
 
-.hide-activity-wrapper {
+.activity-section {
+  padding-bottom: 50px;
+}
+
+.activity-wrapper {
   display: flex;
   gap: 50px;
   align-items: center;
 }
-.hide-activity-text-wrapper{
+
+.text-wrapper {
   width: 100%;
 }
 
-.hide-activity-title {
+.title {
   font-size: 64px;
   font-weight: 900;
   line-height: 1.1;
@@ -19,7 +24,7 @@
   margin-bottom: 30px;
 }
 
-.hide-activity-button {
+.button {
   background-color: #0756cc;
   color: #fff;
   font-size: 24px;
@@ -29,9 +34,10 @@
   border-radius: 10px;
   border: none;
   margin-bottom: 65px;
+  cursor: pointer;
 }
 
-.hide-activity-list {
+.list {
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -39,4 +45,8 @@
   font-weight: 500;
   line-height: 1.4;
   color: #001767;
+}
+
+.list-item {
+  list-style-type: none;
 }
