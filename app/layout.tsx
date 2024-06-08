@@ -1,3 +1,4 @@
+"use client";
 import "./reset.css";
 import "./globals.css";
 import React from "react";

@@ -4,36 +4,42 @@
   font-weight: 900;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-ExtraBold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-ExtraLight.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Pangram';
   src: url('/fonts/Pangram-Regular.woff2') format('woff2');
@@ -46,6 +52,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("../public/images/hero/hero-bg-big.svg");
+  background-repeat: no-repeat;
+  background-position: 130px 550px;
 }
 
 .container-full {

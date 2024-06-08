@@ -7,7 +7,7 @@ export default function Home() {
     window.location.href = "https://www.alohabrowser.com/download.html";
   };
   return (
-    <main>
+    <main className="main">
       <div className="hero-wrapper">
         <div className="hero-text-wrapper">
           <h2 className="hero-header hero-header--white">Unlimited freedom.</h2>
@@ -25,7 +25,7 @@ export default function Home() {
               <li className="hero-social-item">
                 <a href="#" className="hero-social-link">
                   <img
-                    src="/images/windows.png"
+                    src="/images/hero/windows.png"
                     alt="A windows icon"
                     className="hero-social-icon"
                   />
@@ -34,7 +34,7 @@ export default function Home() {
               <li className="hero-social-item">
                 <a href="#" className="hero-social-link">
                   <img
-                    src="/images/android.png"
+                    src="/images/hero/android.png"
                     alt="An android icon"
                     className="hero-social-icon"
                   />
@@ -43,7 +43,7 @@ export default function Home() {
               <li className="hero-social-item">
                 <a href="#" className="hero-social-link">
                   <img
-                    src="/images/apple-logo.png"
+                    src="/images/hero/apple-logo.png"
                     alt="An apple icon"
                     className="hero-social-icon"
                   />
