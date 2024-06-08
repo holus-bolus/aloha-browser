@@ -190,10 +190,10 @@ const Header: React.FC = () => {
             ))}
           </Menu>
           <div className="header-buttons-wrapper">
-            <button className="header-profile-btn header-profile-btn--transparent">
+            <button className="header-profile-btn header-button header-profile-btn--transparent">
               Profile
             </button>
-            <button className="header-profile-btn header-profile-btn--filled">
+            <button className="header-profile-btn header-button header-profile-btn--filled">
               Get Browser
             </button>
           </div>

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import "./hero.css";
 import SayHello from "@/app/components/SayHello/SayHello";
+import Advantages from "@/app/components/Advantages/Advantages";
 
 export default function Home() {
   const handleButtonClick = () => {
@@ -61,6 +62,7 @@ export default function Home() {
         />
       </div>
       <SayHello />
+      <Advantages />
     </main>
   );
 }

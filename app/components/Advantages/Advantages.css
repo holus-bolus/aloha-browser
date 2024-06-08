@@ -1,0 +1,42 @@
+.advantages {
+  padding: 150px 0;
+}
+
+.hide-activity-wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.hide-activity-text-wrapper{
+  width: 100%;
+}
+
+.hide-activity-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #001767;
+  margin-bottom: 30px;
+}
+
+.hide-activity-button {
+  background-color: #0756cc;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 65px;
+}
+
+.hide-activity-list {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #001767;
+}
