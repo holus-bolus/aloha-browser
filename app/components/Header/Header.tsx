@@ -68,87 +68,88 @@ const Header: React.FC = () => {
   return (
     <>
       <nav className="nav">
-        <ul className="nav-list">
-          <li>
-            <Link href="/">
-              <Image
-                src="/images/aloha-logo.svg"
-                alt="Aloha Browser"
-                width={120}
-                height={24}
-              />
-            </Link>
-          </li>
-          <li>
-            <Button
-              aria-controls="feature-menu"
-              aria-haspopup="true"
-              style={{
-                textTransform: "none",
-                fontFamily: "Pangram Sans, sans-serif",
-                color: "#001767",
-                fontWeight: 550,
-                fontSize: "16px",
-              }}
-              onClick={handleFeatureMenuOpen}
-              endIcon={<SouthIcon />}
-            >
-              Features
-            </Button>
-            <Menu
-              id="feature-menu"
-              anchorEl={featureAnchorEl}
-              open={Boolean(featureAnchorEl)}
-              onClose={handleFeatureMenuClose}
-            >
-              {featureItems.map((item) => (
-                <MenuItem key={item.key} onClick={handleFeatureMenuClose}>
-                  {item.icon && (
-                    <Image
-                      src={item.icon}
-                      alt={item.label}
-                      width={20}
-                      height={20}
-                      className="dropdown-item-icon"
-                    />
-                  )}
-                  <Link href={item.href} className="dropdown-item-link">
-                    <Typography
-                      style={{
-                        fontFamily: "Pangram Sans, sans-serif",
-                        color: "#001767",
-                        fontWeight: 500,
-                        fontSize: "16px",
-                      }}
-                    >
-                      {item.label}
-                    </Typography>
-                  </Link>
-                </MenuItem>
-              ))}
-            </Menu>
-          </li>
-          <li>
-            <Link href="/premium" className="header-nav-link">
-              Premium
-            </Link>
-          </li>
-          <li>
-            <Link href="/enterprise" className="header-nav-link">
-              Enterprise
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="header-nav-link">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog" className="header-nav-link">
-              Blog
-            </Link>
-          </li>
-        </ul>
+        <div className="nav-menu-wrapper">
+          <Link href="/" className="nav-logo">
+            <Image
+              src="/images/aloha-logo.svg"
+              alt="Logo"
+              width={120}
+              height={40}
+              className="nav-logo-image"
+            />
+          </Link>
+          <ul className="nav-list">
+            <li>
+              <Button
+                aria-controls="feature-menu"
+                aria-haspopup="true"
+                style={{
+                  textTransform: "none",
+                  fontFamily: "Pangram Sans, sans-serif",
+                  color: "#001767",
+                  fontWeight: 550,
+                  fontSize: "16px",
+                }}
+                onClick={handleFeatureMenuOpen}
+                endIcon={<SouthIcon />}
+              >
+                Features
+              </Button>
+              <Menu
+                id="feature-menu"
+                anchorEl={featureAnchorEl}
+                open={Boolean(featureAnchorEl)}
+                onClose={handleFeatureMenuClose}
+              >
+                {featureItems.map((item) => (
+                  <MenuItem key={item.key} onClick={handleFeatureMenuClose}>
+                    {item.icon && (
+                      <Image
+                        src={item.icon}
+                        alt={item.label}
+                        width={20}
+                        height={20}
+                        className="dropdown-item-icon"
+                      />
+                    )}
+                    <Link href={item.href} className="dropdown-item-link">
+                      <Typography
+                        style={{
+                          fontFamily: "Pangram Sans, sans-serif",
+                          color: "#001767",
+                          fontWeight: 500,
+                          fontSize: "16px",
+                        }}
+                      >
+                        {item.label}
+                      </Typography>
+                    </Link>
+                  </MenuItem>
+                ))}
+              </Menu>
+            </li>
+            <li>
+              <Link href="/premium" className="header-nav-link">
+                Premium
+              </Link>
+            </li>
+            <li>
+              <Link href="/enterprise" className="header-nav-link">
+                Enterprise
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="header-nav-link">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="header-nav-link">
+                Blog
+              </Link>
+            </li>
+          </ul>
+        </div>
         <div className="nav-actions">
           <Button
             aria-controls="language-menu"
@@ -161,6 +162,7 @@ const Header: React.FC = () => {
               color: "#001767",
               fontWeight: 700,
               fontSize: "16px",
+              marginTop: "5px",
             }}
           >
             En
