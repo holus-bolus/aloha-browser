@@ -1,0 +1,44 @@
+.big-privacy__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.big-privacy__description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.big-privacy__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 80px 0px;
+  background-color: #ecf3f8;
+  border-radius: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-privacy__item {
+  width: 530px;
+}
+
+.big-privacy__list-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #001767;
+}
+
+
+.big-privacy__list-desc{
+  font-size: 24px;
+  font-weight: 500;
+  color: #001767;
+}
+
+.big-privacy__button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
