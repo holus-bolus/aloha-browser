@@ -133,7 +133,7 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/enterprise" className="header-nav-link">
+              <Link href="/enterprize" className="header-nav-link">
                 Enterprise
               </Link>
             </li>
