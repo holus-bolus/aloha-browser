@@ -9,46 +9,48 @@ export default function Home() {
   return (
     <main>
       <div className="hero-wrapper">
-        <h2 className="hero-header hero-header--white">Unlimited freedom.</h2>
-        <h2 className="hero-header hero-header--white">Total privacy.</h2>
-        <h2 className="hero-header hero-header--blue hero-header--bottom">
-          Upgrade your digital
-          <br />
-          world with Aloha
-        </h2>
-        <div className="button-icons-wrapper">
-          <button className="hero-button" onClick={handleButtonClick}>
-            Get Aloha Browser
-          </button>
-          <ul className="hero-social-list">
-            <li className="hero-social-item">
-              <a href="#" className="hero-social-link">
-                <img
-                  src="/images/windows.png"
-                  alt="A windows icon"
-                  className="hero-social-icon"
-                />
-              </a>
-            </li>
-            <li className="hero-social-item">
-              <a href="#" className="hero-social-link">
-                <img
-                  src="/images/android.png"
-                  alt="An android icon"
-                  className="hero-social-icon"
-                />
-              </a>
-            </li>
-            <li className="hero-social-item">
-              <a href="#" className="hero-social-link">
-                <img
-                  src="/images/apple-logo.png"
-                  alt="An apple icon"
-                  className="hero-social-icon"
-                />
-              </a>
-            </li>
-          </ul>
+        <div className="hero-text-wrapper">
+          <h2 className="hero-header hero-header--white">Unlimited freedom.</h2>
+          <h2 className="hero-header hero-header--white">Total privacy.</h2>
+          <h2 className="hero-header hero-header--blue hero-header--bottom">
+            Upgrade your digital
+            <br />
+            world with Aloha
+          </h2>
+          <div className="button-icons-wrapper">
+            <button className="hero-button" onClick={handleButtonClick}>
+              Get Aloha Browser
+            </button>
+            <ul className="hero-social-list">
+              <li className="hero-social-item">
+                <a href="#" className="hero-social-link">
+                  <img
+                    src="/images/windows.png"
+                    alt="A windows icon"
+                    className="hero-social-icon"
+                  />
+                </a>
+              </li>
+              <li className="hero-social-item">
+                <a href="#" className="hero-social-link">
+                  <img
+                    src="/images/android.png"
+                    alt="An android icon"
+                    className="hero-social-icon"
+                  />
+                </a>
+              </li>
+              <li className="hero-social-item">
+                <a href="#" className="hero-social-link">
+                  <img
+                    src="/images/apple-logo.png"
+                    alt="An apple icon"
+                    className="hero-social-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <Image
           src="/images/banner.png"

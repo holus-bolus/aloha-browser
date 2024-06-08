@@ -1,9 +1,12 @@
 .hero-wrapper {
   background-color: #0756cc;
   border-radius: 36px;
-  padding: 40px;
+  padding: 40px 0;
 }
 
+.hero-text-wrapper {
+  padding: 40px;
+}
 
 .hero-header {
   font-size: 78px;
@@ -11,7 +14,7 @@
   line-height: 1.4;
 }
 
-.hero-header--white{
+.hero-header--white {
   color: #fff;
 }
 
@@ -19,17 +22,36 @@
   color: #74dbfb;
 }
 
-.hero-header--bottom{
+.hero-header--bottom {
   margin-bottom: 125px;
 }
 
-.hero-button{
+.button-icons-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-button {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.4;
   color: #ffffff;
   background-color: #001767;
   border-radius: 20px;
-  padding: 20px 40px;
+  padding: 15px 40px;
   border: none;
+}
+
+.hero-social-list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-social-item {
+  max-width: 50px;
+}
+
+.hero-social-icon {
+  width: 100%;
 }
