@@ -1,5 +1,5 @@
 import "./BigPrivacy.css";
-
+import Image from "next/image";
 const BigPrivacy = () => {
   return (
     <section className="big-privacy">
@@ -19,6 +19,12 @@ const BigPrivacy = () => {
       </p>
       <ul className="big-privacy__list">
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/passcode.svg"
+            alt="passcode icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">
               Passcode & Face/Touch ID
@@ -30,6 +36,12 @@ const BigPrivacy = () => {
           </div>
         </li>
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/https.svg"
+            alt="https lock icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">HTTPS lock</h3>
             <p className="big-privacy__list-desc">
@@ -38,6 +50,12 @@ const BigPrivacy = () => {
           </div>
         </li>
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/privacy-report.svg"
+            alt="passcode icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">Privacy report</h3>
             <p className="big-privacy__list-desc">
@@ -46,6 +64,12 @@ const BigPrivacy = () => {
           </div>
         </li>
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/redirect.svg"
+            alt="passcode icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">Redirect blocker</h3>
             <p className="big-privacy__list-desc">
@@ -55,6 +79,12 @@ const BigPrivacy = () => {
           </div>
         </li>
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/data-collection.svg"
+            alt="passcode icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">No data collection</h3>
             <p className="big-privacy__list-desc">
@@ -63,6 +93,12 @@ const BigPrivacy = () => {
           </div>
         </li>
         <li className="big-privacy__item">
+          <Image
+            src="/images/big-privacy/3rdparty.svg"
+            alt="passcode icon"
+            width={60}
+            height={60}
+          />
           <div className="big-privacy__item-wrapper">
             <h3 className="big-privacy__list-title">3rd party audit</h3>
             <p className="big-privacy__list-desc">

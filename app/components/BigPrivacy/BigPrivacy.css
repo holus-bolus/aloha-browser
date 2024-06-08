@@ -21,6 +21,9 @@
 
 .big-privacy__item {
   width: 530px;
+  display: flex;
+  height: 140px;
+  gap: 20px;
 }
 
 .big-privacy__list-title {
