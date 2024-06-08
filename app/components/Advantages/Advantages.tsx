@@ -13,7 +13,7 @@ const Advantages = () => {
             height="775"
           />
           <div className="text-wrapper">
-            <h2 className="title">
+            <h2 className="title subheading">
               Hide your
               <br />
               activity from
@@ -36,7 +36,7 @@ const Advantages = () => {
       <section className="activity-section">
         <div className="activity-wrapper">
           <div className="text-wrapper">
-            <h2 className="title">
+            <h2 className="title subheading">
               Avoid pain in the
               <br />
               ads distractions
@@ -69,7 +69,7 @@ const Advantages = () => {
             height="775"
           />
           <div className="text-wrapper">
-            <h2 className="title">
+            <h2 className="title subheading">
               Web freely with
               <br />
               the built-in Web3

@@ -18,11 +18,7 @@
 
 
 .say-hello__title{
-  font-size: 64px;
-  font-weight: 900;
-  line-height: 1.4;
-  color: #001767;
-  letter-spacing: -1.3px;
+  text-align: center;
 }
 
 .say-hello__title-text{

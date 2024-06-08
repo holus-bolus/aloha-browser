@@ -61,3 +61,10 @@ body {
   width: 1410px;
   margin: 0 auto;
 }
+
+.subheading {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #001767;
+}
