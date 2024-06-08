@@ -1,29 +1,62 @@
+"use client";
+import Image from "next/image";
+import "./hero.css";
+
 export default function Home() {
-  return (<main>
-    <h2>Unlimited freedom</h2>
-    <h2>Total privacy</h2>
-    <h2>Upgrade your digital
-      <br/>
-      world with Aloha
-    </h2>
-    <div className='button-icons-wrapper'>
-      <button>Get Aloha browser</button>
-      <ul className='hero-social-list'>
-        <li className='hero-social-item'>
-          <a href='#' className='hero-social-link'>
-            <img src='/images/windows.svg' alt='A windows icon'  className='hero-social-icon'/>
-          </a>
-        </li>
-        <li className='hero-social-item'>
-          <a href='#' className='hero-social-link'>
-            <img src='' alt='' className='hero-social-icon'/>
-          </a>
-        </li>
-        <li className='hero-social-item'>
-          <a href='#' className='hero-social-link'><img src='' alt='' className='hero-social-icon'/>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </main>);
+  const handleButtonClick = () => {
+    window.location.href = "https://www.alohabrowser.com/download.html";
+  };
+  return (
+    <main>
+      <div className="hero-wrapper">
+        <h2 className="hero-header hero-header--white">Unlimited freedom.</h2>
+        <h2 className="hero-header hero-header--white">Total privacy.</h2>
+        <h2 className="hero-header hero-header--blue hero-header--bottom">
+          Upgrade your digital
+          <br />
+          world with Aloha
+        </h2>
+        <div className="button-icons-wrapper">
+          <button className="hero-button" onClick={handleButtonClick}>
+            Get Aloha Browser
+          </button>
+          <ul className="hero-social-list">
+            <li className="hero-social-item">
+              <a href="#" className="hero-social-link">
+                <img
+                  src="/images/windows.png"
+                  alt="A windows icon"
+                  className="hero-social-icon"
+                />
+              </a>
+            </li>
+            <li className="hero-social-item">
+              <a href="#" className="hero-social-link">
+                <img
+                  src="/images/android.png"
+                  alt="An android icon"
+                  className="hero-social-icon"
+                />
+              </a>
+            </li>
+            <li className="hero-social-item">
+              <a href="#" className="hero-social-link">
+                <img
+                  src="/images/apple-logo.png"
+                  alt="An apple icon"
+                  className="hero-social-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <Image
+          src="/images/banner.png"
+          alt="the banner"
+          width="1300"
+          height="800"
+        />
+      </div>
+    </main>
+  );
 }

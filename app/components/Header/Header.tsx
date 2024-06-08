@@ -1,15 +1,19 @@
 "use client";
 import "./Header.css";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {Button, Menu, MenuItem, Typography} from "@mui/material";
-import {ArrowDropDown} from "@mui/icons-material";
-import SouthIcon from '@mui/icons-material/South';
+import { Button, Menu, MenuItem, Typography } from "@mui/material";
+import { ArrowDropDown } from "@mui/icons-material";
+import SouthIcon from "@mui/icons-material/South";
 
 const Header: React.FC = () => {
-  const [featureAnchorEl, setFeatureAnchorEl] = useState<null | HTMLElement>(null);
-  const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(null);
+  const [featureAnchorEl, setFeatureAnchorEl] = useState<null | HTMLElement>(
+    null,
+  );
+  const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(
+    null,
+  );
 
   const featureItems = [
     {
@@ -36,13 +40,13 @@ const Header: React.FC = () => {
       href: "/features/wallet",
       icon: "/images/04.svg",
     },
-    {key: "others", label: "Others", href: "/features/others"},
+    { key: "others", label: "Others", href: "/features/others" },
   ];
 
   const languageItems = [
-    {key: "english", label: "English", href: "/locale/en"},
-    {key: "deutsch", label: "Deutsch", href: "/locale/de"},
-    {key: "espanol", label: "Español", href: "/locale/es"},
+    { key: "english", label: "English", href: "/locale/en" },
+    { key: "deutsch", label: "Deutsch", href: "/locale/de" },
+    { key: "espanol", label: "Español", href: "/locale/es" },
   ];
 
   const handleFeatureMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
@@ -63,13 +67,13 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <nav className='nav'>
-        <ul className='nav-list'>
+      <nav className="nav">
+        <ul className="nav-list">
           <li>
-            <Link href='/'>
+            <Link href="/">
               <Image
-                src='/images/aloha-logo.svg'
-                alt='Aloha Browser'
+                src="/images/aloha-logo.svg"
+                alt="Aloha Browser"
                 width={120}
                 height={24}
               />
@@ -77,22 +81,22 @@ const Header: React.FC = () => {
           </li>
           <li>
             <Button
-              aria-controls='feature-menu'
-              aria-haspopup='true'
+              aria-controls="feature-menu"
+              aria-haspopup="true"
               style={{
                 textTransform: "none",
                 fontFamily: "Pangram Sans, sans-serif",
-                color: '#001767',
+                color: "#001767",
                 fontWeight: 550,
-                fontSize: '16px',
+                fontSize: "16px",
               }}
               onClick={handleFeatureMenuOpen}
-              endIcon={<SouthIcon/>}
+              endIcon={<SouthIcon />}
             >
               Features
             </Button>
             <Menu
-              id='feature-menu'
+              id="feature-menu"
               anchorEl={featureAnchorEl}
               open={Boolean(featureAnchorEl)}
               onClose={handleFeatureMenuClose}
@@ -105,16 +109,16 @@ const Header: React.FC = () => {
                       alt={item.label}
                       width={20}
                       height={20}
-                      className='dropdown-item-icon'
+                      className="dropdown-item-icon"
                     />
                   )}
-                  <Link href={item.href} className='dropdown-item-link'>
+                  <Link href={item.href} className="dropdown-item-link">
                     <Typography
                       style={{
                         fontFamily: "Pangram Sans, sans-serif",
-                        color: '#001767',
+                        color: "#001767",
                         fontWeight: 500,
-                        fontSize: '16px',
+                        fontSize: "16px",
                       }}
                     >
                       {item.label}
@@ -125,49 +129,57 @@ const Header: React.FC = () => {
             </Menu>
           </li>
           <li>
-            <Link href='/premium' className='header-nav-link'>Premium</Link>
+            <Link href="/premium" className="header-nav-link">
+              Premium
+            </Link>
           </li>
           <li>
-            <Link href='/enterprise' className='header-nav-link'>Enterprise</Link>
+            <Link href="/enterprise" className="header-nav-link">
+              Enterprise
+            </Link>
           </li>
           <li>
-            <Link href='/about' className='header-nav-link'>About</Link>
+            <Link href="/about" className="header-nav-link">
+              About
+            </Link>
           </li>
           <li>
-            <Link href='/blog' className='header-nav-link'>Blog</Link>
+            <Link href="/blog" className="header-nav-link">
+              Blog
+            </Link>
           </li>
         </ul>
-        <div className='nav-actions'>
+        <div className="nav-actions">
           <Button
-            aria-controls='language-menu'
-            aria-haspopup='true'
+            aria-controls="language-menu"
+            aria-haspopup="true"
             onClick={handleLanguageMenuOpen}
-            endIcon={<SouthIcon/>}
+            endIcon={<SouthIcon />}
             style={{
               textTransform: "none",
               fontFamily: "Pangram Sans, sans-serif",
-              color: '#001767',
+              color: "#001767",
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: "16px",
             }}
           >
             En
           </Button>
           <Menu
-            id='language-menu'
+            id="language-menu"
             anchorEl={languageAnchorEl}
             open={Boolean(languageAnchorEl)}
             onClose={handleLanguageMenuClose}
           >
             {languageItems.map((item) => (
               <MenuItem key={item.key} onClick={handleLanguageMenuClose}>
-                <Link href={item.href} className='dropdown-item-link'>
+                <Link href={item.href} className="dropdown-item-link">
                   <Typography
                     style={{
                       fontFamily: "Pangram Sans, sans-serif",
-                      color: '#001767',
+                      color: "#001767",
                       fontWeight: 700,
-                      fontSize: '16px',
+                      fontSize: "16px",
                     }}
                   >
                     {item.label}
@@ -176,15 +188,11 @@ const Header: React.FC = () => {
               </MenuItem>
             ))}
           </Menu>
-          <div className='header-buttons-wrapper'>
-            <button
-              className='header-profile-btn header-profile-btn--transparent'
-            >
+          <div className="header-buttons-wrapper">
+            <button className="header-profile-btn header-profile-btn--transparent">
               Profile
             </button>
-            <button
-              className='header-profile-btn header-profile-btn--filled'
-            >
+            <button className="header-profile-btn header-profile-btn--filled">
               Get Browser
             </button>
           </div>

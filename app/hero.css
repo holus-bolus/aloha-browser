@@ -1,0 +1,35 @@
+.hero-wrapper {
+  background-color: #0756cc;
+  border-radius: 36px;
+  padding: 40px;
+}
+
+
+.hero-header {
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.hero-header--white{
+  color: #fff;
+}
+
+.hero-header--blue {
+  color: #74dbfb;
+}
+
+.hero-header--bottom{
+  margin-bottom: 125px;
+}
+
+.hero-button{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+  background-color: #001767;
+  border-radius: 20px;
+  padding: 20px 40px;
+  border: none;
+}
