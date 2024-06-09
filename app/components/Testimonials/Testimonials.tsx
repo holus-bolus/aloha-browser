@@ -67,7 +67,6 @@ const Testimonials = () => {
                 <span className="testimonnials__item-name"> ToySoldier23</span>
               </p>
             </li>
-            <li className="testimonials__item"></li>
           </ul>
         </div>
         <div className="testimonials__reviews-wrapper testimonials__google-play">
@@ -89,44 +88,60 @@ const Testimonials = () => {
             <li className="testimonials__item">
               <div className="testimonials__item-points-wrapper">
                 <img
-                  src="/images/testimonials/testimonials-star-rating.svg"
+                  src="/images/testimonials/testi-play-stars.svg"
                   alt="The star rating"
                 />
               </div>
               <p className="testimonials__item-text">
-                This app is amazing, definitely the best of its kind I have
-                used. Works really well for downloading and storing files. Would
-                highly recommend.
-                <span className="testimonnials__item-name"> Gavhec</span>
+                Very good, so i want to use it. It is useful and helpful to me.
+                Easy to use, nice to use, and i enjoy it.
+                <span className="testimonnials__item-name">
+                  {" "}
+                  Daniel Bawia Dawn
+                </span>
               </p>
             </li>
             <li className="testimonials__item">
               <div className="testimonials__item-points-wrapper">
                 <img
-                  src="/images/testimonials/testimonials-star-rating.svg"
+                  src="/images/testimonials/testi-play-stars.svg"
                   alt="The star rating"
                 />
               </div>
               <p className="testimonials__item-text">
-                The best app for browse everything and download.
-                <span className="testimonnials__item-name"> Roxyyyy14</span>
+                No ads no problem and the private tab Password feature is
+                awesome.
+                <span className="testimonnials__item-name"> Dev Rana</span>
               </p>
             </li>
             <li className="testimonials__item">
               <div className="testimonials__item-points-wrapper">
                 <img
-                  src="/images/testimonials/testimonials-star-rating.svg"
+                  src="/images/testimonials/testi-play-stars.svg"
                   alt="The star rating"
                 />
               </div>
               <p className="testimonials__item-text">
-                I’m obsessed with Aloha! Great browser, real privacy, easy to
-                navigate, user friendly and now Crypto wallet?! Keep up the good
-                work!
-                <span className="testimonnials__item-name"> ToySoldier23</span>
+                Very good app!!! Downloads great and loads of features and
+                settings. Vpn and ad blocker, for free!!!
+                <span className="testimonnials__item-name"> Joshua Dillon</span>
               </p>
             </li>
-            <li className="testimonials__item"></li>
+            <li className="testimonials__item">
+              <div className="testimonials__item-points-wrapper">
+                <img
+                  src="/images/testimonials/testi-play-stars.svg"
+                  alt="The star rating"
+                />
+              </div>
+              <p className="testimonials__item-text">
+                Very good at blocking disruptive ads, and crushes popups.
+                <span className="testimonnials__item-name">
+                  {" "}
+                  Sunamii Studios
+                </span>
+              </p>
+            </li>
           </ul>
         </div>
       </div>

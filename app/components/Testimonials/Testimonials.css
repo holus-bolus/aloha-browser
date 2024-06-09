@@ -9,7 +9,8 @@
 
 .testimonials__wrapper {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -82,17 +83,21 @@
 
 .testimonials__google-play {
   position: relative;
-  top: 60px;
+  top: 180px;
 }
 
-.testimonials__google-play-badge{
+.testimonials__google-play-badge {
   background-image: url("/images/testimonials/playstore-card-bg.svg");
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top left;
   padding: 10px;
   border-radius: 10px;
-  background-size: contain;
+  background-size: cover;
   background-color: #00630b;
+  margin-bottom: 50px;
 }
 
-.testimonials__playmarket-number-wrapper{}
+.testimonials__playmarket-number-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
