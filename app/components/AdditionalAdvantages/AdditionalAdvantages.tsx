@@ -100,7 +100,9 @@ const AdditionalAdvantages = () => {
         </li>
       </ul>
       <div className="additional-advantages__button-wrapper">
-        <button className="additional-advantages__button">See more</button>
+        <button className="button additional-advantages__button">
+          See more
+        </button>
       </div>
     </section>
   );

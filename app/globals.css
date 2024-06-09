@@ -68,3 +68,9 @@ body {
   line-height: 1.5;
   color: #001767;
 }
+
+.list-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #001767;
+}

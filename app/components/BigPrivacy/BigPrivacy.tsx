@@ -26,7 +26,7 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">
+            <h3 className="list-subtitle big-privacy__list-title">
               Passcode & Face/Touch ID
             </h3>
             <p className="big-privacy__list-desc">
@@ -43,7 +43,9 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">HTTPS lock</h3>
+            <h3 className="list-subtitle big-privacy__list-title">
+              HTTPS lock
+            </h3>
             <p className="big-privacy__list-desc">
               Make sure you only visit sites using the secure HTTPS standard
             </p>
@@ -57,7 +59,9 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">Privacy report</h3>
+            <h3 className="list-subtitle big-privacy__list-title">
+              Privacy report
+            </h3>
             <p className="big-privacy__list-desc">
               Keep tabs on how many ads, trackers and pop-ups you’ve blocked
             </p>
@@ -71,7 +75,9 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">Redirect blocker</h3>
+            <h3 className="list-subtitle big-privacy__list-title">
+              Redirect blocker
+            </h3>
             <p className="big-privacy__list-desc">
               Block those annoying redirects and go to the pages you’re actually
               looking for
@@ -86,7 +92,9 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">No data collection</h3>
+            <h3 className="list-subtitle big-privacy__list-title">
+              No data collection
+            </h3>
             <p className="big-privacy__list-desc">
               It’s true, Aloha really doesn’t collect or share any of your data
             </p>
@@ -100,7 +108,9 @@ const BigPrivacy = () => {
             height={60}
           />
           <div className="big-privacy__item-wrapper">
-            <h3 className="big-privacy__list-title">3rd party audit</h3>
+            <h3 className="list-subtitle big-privacy__list-title">
+              3rd party audit
+            </h3>
             <p className="big-privacy__list-desc">
               Don’t just take our word for it – our privacy policy is regularly
               audited by Leviathan Security Group

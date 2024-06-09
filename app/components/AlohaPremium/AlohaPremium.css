@@ -1,0 +1,89 @@
+.aloha-premium {
+  padding-bottom: 150px;
+}
+
+.aloha-premium__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.aloha-premium__description {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.aloha-premium__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aloha-premium__list {
+  background-color: #ffedf4;
+  border-radius: 36px;
+  padding: 60px 60px 130px 30px;
+  margin-bottom: 15px;
+}
+
+.aloha-premium__features-list {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+
+.aloha-premium__features-item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #001767;
+  font-size: 24px;
+}
+
+.aloha-premium__features-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('/images/premium/premium-star.svg');
+  background-size: cover;
+}
+
+.aloha-premium__list-title {
+  margin-bottom: 15px;
+}
+
+.aloha-premium__buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.aloha-premium__button {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 6px 30px;
+  border-radius: 20px;
+  font-family: 'Pangram Sans', sans-serif;
+}
+
+.aloha-premium__button--transparent {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #e240a3;
+}
+
+.aloha-premium__button--filled {
+  background-color: #e240a3;
+  color: #fff;
+  border: none;
+}
