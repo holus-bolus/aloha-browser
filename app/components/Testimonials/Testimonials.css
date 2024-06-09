@@ -29,6 +29,7 @@
   padding: 10px;
   background-color: #74dbfb;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .testimonials__apple-number-wrapper {
@@ -59,11 +60,39 @@
   border-radius: 10px;
 }
 
+.testimonials__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testimonials__item-text {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #001767;
+}
+
+.testimonnials__item-name {
+  color: #0756cc;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
 .testimonials__google-play {
   position: relative;
   top: 60px;
 }
 
 .testimonials__google-play-badge{
-
+  background-image: url("/images/testimonials/playstore-card-bg.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 10px;
+  border-radius: 10px;
+  background-size: contain;
+  background-color: #00630b;
 }
+
+.testimonials__playmarket-number-wrapper{}

@@ -152,7 +152,9 @@ const AlohaComparison: React.FC = () => {
 
   return (
     <section className="aloha-comparison">
-      <h2 className="title aloha-comparison__title">Aloha vs other browsers</h2>
+      <h2 className="subheading aloha-comparison__title">
+        Aloha vs other browsers
+      </h2>
       <p className="description aloha-comparison__description">
         We don't just talk the talk. Here is a look at <br />
         how we stack up against other browsers
@@ -179,7 +181,7 @@ const AlohaComparison: React.FC = () => {
       </div>
       <table className="comparison-table">
         <thead>
-          <tr>
+          <tr className="no-border">
             <th></th>
             <th>
               <div className="table-header">

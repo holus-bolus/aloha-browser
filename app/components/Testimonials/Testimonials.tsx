@@ -4,7 +4,7 @@ import "./Testimonials.css";
 const Testimonials = () => {
   return (
     <section className="testimonials">
-      <h2 className="title testimonials__title">
+      <h2 className="subheading testimonials__title">
         Trusted by 150,000,000+ <br />
         people in 80 countries
       </h2>
@@ -18,7 +18,7 @@ const Testimonials = () => {
                 width={100}
                 height={100}
               ></Image>
-              <p className="testimonials__average">4.7</p>
+              <p className="testimonials__average">4.8</p>
             </div>
             <div className="testimonials__button-wrapper">
               <button className="testimonials__review-button">
@@ -80,10 +80,10 @@ const Testimonials = () => {
                 height={100}
               ></Image>
               <p className="testimonials__average">4.4</p>
-              <button className="testimonials__review-button">
-                183K reviews
-              </button>
             </div>
+            <button className="testimonials__review-button">
+              183K reviews
+            </button>
           </div>
           <ul className="testimonials__list">
             <li className="testimonials__item">

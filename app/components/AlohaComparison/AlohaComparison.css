@@ -82,3 +82,7 @@ button.active {
   width: 16px;
   height: 16px;
 }
+
+.comparison-table .no-border {
+  border-bottom: none;
+}
