@@ -1,5 +1,6 @@
 .testimonials {
   padding-top: 135px;
+  min-width: 1100px;
 }
 
 .testimonials__title {
@@ -9,17 +10,13 @@
 
 .testimonials__wrapper {
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .testimonials__reviews-wrapper {
-  width: 530px;
-}
-
-.testimonials__item {
-  width: 530px;
+  min-width: 600px;
 }
 
 .testimonials__apple-store-badge {
@@ -31,6 +28,7 @@
   background-color: #74dbfb;
   border-radius: 10px;
   margin-bottom: 50px;
+
 }
 
 .testimonials__apple-number-wrapper {

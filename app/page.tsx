@@ -8,6 +8,7 @@ import Hero from "@/app/components/Hero/Hero";
 import AlohaPremium from "@/app/components/AlohaPremium/AlohaPremium";
 import AlohaComparison from "@/app/components/AlohaComparison/AlohaComparison";
 import Testimonials from "@/app/components/Testimonials/Testimonials";
+import GetToKnow from "@/app/components/GetToKnow/GetToKnow";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AlohaPremium />
       <AlohaComparison />
       <Testimonials />
+      <GetToKnow />
     </main>
   );
 }
