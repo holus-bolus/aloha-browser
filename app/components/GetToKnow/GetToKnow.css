@@ -2,3 +2,44 @@
   padding-top: 460px;
   padding-bottom: 20px;
 }
+
+
+.get-to-know__heading {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  color: #001767;
+}
+
+.get-to-know__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-to-know__item {
+  padding: 30px;
+  min-height: 290px;
+  min-width: 200px;
+}
+
+.get-to-know__item--vpn {
+  background-color: #cef976;
+}
+
+.get-to-know__item--adblock {
+  background-color: #ffef18
+}
+
+.get-to-know__item--privacy {
+  background-color: #b0edfc;
+}
+
+.get-to-know__item--wallet {
+  background-color: #ffdbe9;
+}
+
+.get-to-know__item--others {
+  background-color: #ecf3f8;
+}
