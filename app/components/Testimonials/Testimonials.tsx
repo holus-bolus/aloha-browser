@@ -9,7 +9,7 @@ const Testimonials = () => {
         people in 80 countries
       </h2>
       <div className="testimonials__wrapper">
-        <div className="testimonials__reiviews-wrapper testimonials__apple-store">
+        <div className="testimonials__reviews-wrapper testimonials__apple-store">
           <div className="testimonials__apple-store-badge">
             <div className="testimonials__apple-number-wrapper">
               <Image
@@ -20,9 +20,11 @@ const Testimonials = () => {
               ></Image>
               <p className="testimonials__average">4.7</p>
             </div>
-            <button className="testimonials__review-button">
-              278K reviews
-            </button>
+            <div className="testimonials__button-wrapper">
+              <button className="testimonials__review-button">
+                278K reviews
+              </button>
+            </div>
           </div>
           <ul className="testimonials__list">
             <li className="testimonials__item">
@@ -68,17 +70,21 @@ const Testimonials = () => {
             <li className="testimonials__item"></li>
           </ul>
         </div>
-        <div className="testimonials__reiviews-wrapper testimonials__google-play">
-          <div className="testimonials__playmarket-number-wrapper">
-            <Image
-              src="/images/testimonials/testi2.svg"
-              alt="The playstore icon"
-              width={100}
-              height={100}
-            ></Image>
-            <p className="testimonials__average">4.4</p>
+        <div className="testimonials__reviews-wrapper testimonials__google-play">
+          <div className="testimonials__google-play-badge">
+            <div className="testimonials__playmarket-number-wrapper">
+              <Image
+                src="/images/testimonials/testi2.svg"
+                alt="The playstore icon"
+                width={100}
+                height={100}
+              ></Image>
+              <p className="testimonials__average">4.4</p>
+              <button className="testimonials__review-button">
+                183K reviews
+              </button>
+            </div>
           </div>
-          <button className="testimonials__review-button">183K reviews</button>
           <ul className="testimonials__list">
             <li className="testimonials__item">
               <div className="testimonials__item-points-wrapper">
