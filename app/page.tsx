@@ -7,6 +7,7 @@ import AdditionalAdvantages from "@/app/components/AdditionalAdvantages/Addition
 import Hero from "@/app/components/Hero/Hero";
 import AlohaPremium from "@/app/components/AlohaPremium/AlohaPremium";
 import AlohaComparison from "@/app/components/AlohaComparison/AlohaComparison";
+import Testimonials from "@/app/components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AdditionalAdvantages />
       <AlohaPremium />
       <AlohaComparison />
+      <Testimonials />
     </main>
   );
 }

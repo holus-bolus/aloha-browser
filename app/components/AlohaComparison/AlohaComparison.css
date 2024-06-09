@@ -46,16 +46,39 @@ button.active {
 
 .comparison-table th,
 .comparison-table td {
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 8px;
 }
 
 .comparison-table th {
-  background-color: #f2f2f2;
   font-weight: bold;
 }
 
 .comparison-table td {
   text-align: center;
-  font-size: 16px;
+}
+
+.comparison-table td:first-child {
+  text-align: left;
+}
+
+.comparison-table th:first-child {
+  background-color: transparent;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-header img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+.comparison-table td img {
+  width: 16px;
+  height: 16px;
 }

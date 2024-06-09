@@ -180,23 +180,78 @@ const AlohaComparison: React.FC = () => {
       <table className="comparison-table">
         <thead>
           <tr>
-            <th>Feature</th>
-            <th>Aloha</th>
-            <th>Brave</th>
-            <th>Opera</th>
-            <th>Chrome</th>
-            <th>Safari</th>
+            <th></th>
+            <th>
+              <div className="table-header">
+                <img src="/images/comparison/aloha.svg" alt="Aloha" />
+                <span>Aloha</span>
+              </div>
+            </th>
+            <th>
+              <div className="table-header">
+                <img src="/images/comparison/brave.svg" alt="Brave" />
+                <span>Brave</span>
+              </div>
+            </th>
+            <th>
+              <div className="table-header">
+                <img src="/images/comparison/opera.svg" alt="Opera" />
+                <span>Opera</span>
+              </div>
+            </th>
+            <th>
+              <div className="table-header">
+                <img src="/images/comparison/chrome.svg" alt="Chrome" />
+                <span>Chrome</span>
+              </div>
+            </th>
+            <th>
+              <div className="table-header">
+                <img src="/images/comparison/safari.svg" alt="Safari" />
+                <span>Safari</span>
+              </div>
+            </th>
           </tr>
         </thead>
         <tbody>
           {categories[category].map((item, index) => (
             <tr key={index}>
-              <td>{item.feature}</td>
-              <td>{item.aloha ? "✓" : "✗"}</td>
-              <td>{item.brave ? "✓" : "✗"}</td>
-              <td>{item.opera ? "✓" : "✗"}</td>
-              <td>{item.chrome ? "✓" : "✗"}</td>
-              <td>{item.safari ? "✓" : "✗"}</td>
+              <td className="description">{item.feature}</td>
+              <td>
+                {item.aloha ? (
+                  <img src="/images/comparison/yes.svg" alt="✓" />
+                ) : (
+                  <img src="/images/comparison/no.svg" alt="✗" />
+                )}
+              </td>
+              <td>
+                {item.brave ? (
+                  <img src="/images/comparison/yes.svg" alt="✓" />
+                ) : (
+                  <img src="/images/comparison/no.svg" alt="✗" />
+                )}
+              </td>
+              <td>
+                {item.opera ? (
+                  <img src="/images/comparison/yes.svg" alt="✓" />
+                ) : (
+                  <img src="/images/comparison/no.svg" alt="✗" />
+                )}
+              </td>
+              <td>
+                {item.chrome ? (
+                  <img src="/images/comparison/yes.svg" alt="✓" />
+                ) : (
+                  <img src="/images/comparison/no.svg" alt="✗" />
+                )}
+              </td>
+              <td>
+                {item.safari ? (
+                  <img src="/images/comparison/yes.svg" alt="✓" />
+                ) : (
+                  <img src="/images/comparison/no.svg" alt="✗" />
+                )}
+              </td>
             </tr>
           ))}
         </tbody>
