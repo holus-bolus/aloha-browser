@@ -6,6 +6,7 @@ import BigPrivacy from "@/app/components/BigPrivacy/BigPrivacy";
 import AdditionalAdvantages from "@/app/components/AdditionalAdvantages/AdditionalAdvantages";
 import Hero from "@/app/components/Hero/Hero";
 import AlohaPremium from "@/app/components/AlohaPremium/AlohaPremium";
+import AlohaComparison from "@/app/components/AlohaComparison/AlohaComparison";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <BigPrivacy />
       <AdditionalAdvantages />
       <AlohaPremium />
+      <AlohaComparison />
     </main>
   );
 }
