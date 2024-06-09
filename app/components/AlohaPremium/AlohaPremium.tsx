@@ -3,7 +3,7 @@ import "./AlohaPremium.css";
 const AlohaPremium = () => {
   return (
     <section className="aloha-premium">
-      <h2 className="title aloha-premium__title">Aloha Premium</h2>
+      <h2 className="subheading aloha-premium__title">Aloha Premium</h2>
       <p className="description aloha-premium__description">
         Get more of that next-level <br />
         browsing feeling with premium <br />

@@ -2,7 +2,7 @@ import "./AdditionalAdvantages.css";
 const AdditionalAdvantages = () => {
   return (
     <section className="additional-advantages">
-      <h2 className="title additional-advantages__title">
+      <h2 className="subheading additional-advantages__title">
         ... And that's not all
       </h2>
       <ul className="additional-advantages-list">

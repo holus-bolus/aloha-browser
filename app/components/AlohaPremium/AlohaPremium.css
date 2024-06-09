@@ -1,5 +1,8 @@
 .aloha-premium {
   padding-bottom: 150px;
+  background-image: url("/images/premium/aloha-premium-left.png"), url("/images/premium/aloha-premium-right.png");
+  background-repeat: no-repeat;
+  background-position: left 250px top 380px, right 180px bottom 380px;
 }
 
 .aloha-premium__title {
@@ -23,6 +26,7 @@
   border-radius: 36px;
   padding: 60px 60px 130px 30px;
   margin-bottom: 15px;
+  min-width: 650px;
 }
 
 .aloha-premium__features-list {
@@ -71,7 +75,7 @@
   font-size: 32px;
   font-weight: 600;
   line-height: 1.4;
-  padding: 6px 30px;
+  padding: 20px 55px;
   border-radius: 20px;
   font-family: 'Pangram Sans', sans-serif;
 }
