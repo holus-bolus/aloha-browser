@@ -63,7 +63,7 @@ body {
 }
 
 .description {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 1.5;
   color: #001767;
@@ -76,14 +76,16 @@ body {
 }
 
 
-.subheading{
+.subheading {
   font-size: 64px;
   font-weight: 800;
   line-height: 1.2;
-color: #001767;
+  color: #001767;
 }
 
 .button {
+  background-color: #0756cc;
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.4;

@@ -36,7 +36,7 @@ const Advantages = () => {
       <section className="activity-section">
         <div className="pain-ads">
           <div className="text-wrapper pain-ads-text">
-            <h2 className="subheading activity-section__title">
+            <h2 className="subheading advantages__title">
               Avoid pain in the
               <br />
               ads distractions
@@ -69,14 +69,14 @@ const Advantages = () => {
             height="870"
           />
           <div className="text-wrapper">
-            <h2 className="title">
+            <h2 className="subheading advantages__title">
               Web freely with
               <br />
               the built-in Web3
               <br />
               Crypto Wallet
             </h2>
-            <button className="button">See more</button>
+            <button className="button advantages__button">See more</button>
             <ul className="advantages-list">
               <li className="list-item">Buy, send & receive crypto</li>
               <li className="list-item">Swap over 300 tokens</li>

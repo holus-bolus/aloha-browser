@@ -3,7 +3,7 @@ import Image from "next/image";
 const BigPrivacy = () => {
   return (
     <section className="big-privacy">
-      <h2 className="title big-privacy__title">
+      <h2 className="subheading big-privacy__title">
         Big on privacy? We've got you
       </h2>
       <p className="description big-privacy__description">

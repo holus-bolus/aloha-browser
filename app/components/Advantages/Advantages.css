@@ -6,34 +6,39 @@
   padding-bottom: 50px;
 }
 
-.activity-wrapper {
+.activity-wrapper  {
   display: flex;
   gap: 60px;
   align-items: center;
 }
 
-.pain-ads {
+.pain-ads{
   display: flex;
-  gap: 60px;
+  gap: 65px;
+  align-items: center;
 }
 
 .pain-ads-text {
   padding-left: 90px;
-
-}
-
-.advantages__title {
-  margin-bottom: 30px;
-}
-
-.advantages__button {
-  background-color: #0756cc;
-  color: #fff;
-  margin-top: 45px;
 }
 
 .text-wrapper {
   min-width: 500px;
+}
+
+.advantages__title, .activity-section__title {
+  margin-bottom: 30px;
+}
+
+.advantages__button {
+
+  margin-top: 45px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .advantages-list {
