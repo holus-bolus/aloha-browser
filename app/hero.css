@@ -1,8 +1,30 @@
+body {
+  background-image:url("/images/hero/hero-bg-big.svg");
+  background-position:  top 690px left 100px;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
+}
+
+.hero__bg-wrapper {
+  background-color: #0756cc;
+  background-image: url("/images/hero/hero-main-bg.png");
+  background-position: top 720px left 950px;
+  background-repeat: no-repeat;
+  padding: 50px;
+  border-radius: 36px;
+  position: relative;
+  z-index: 1;
+}
 
 .hero-wrapper {
-  background-color: #0756cc;
+  padding: 50px;
   border-radius: 36px;
-  padding: 40px 0;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-text-wrapper {

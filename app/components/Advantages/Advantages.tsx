@@ -13,7 +13,7 @@ const Advantages = () => {
             height="775"
           />
           <div className="text-wrapper">
-            <h2 className="title">
+            <h2 className="subheading advantages__title">
               Hide your
               <br />
               activity from
@@ -22,8 +22,8 @@ const Advantages = () => {
               <br />
               the free VPN
             </h2>
-            <button className="button">See more</button>
-            <ul className="list">
+            <button className="button advantages__button">See more</button>
+            <ul className="advantages-list">
               <li className="list-item">Protect your online privacy</li>
               <li className="list-item">Stay safe on public Wi‐Fi</li>
               <li className="list-item">Get around geo‐blocking</li>
@@ -34,17 +34,17 @@ const Advantages = () => {
         </div>
       </section>
       <section className="activity-section">
-        <div className="activity-wrapper">
-          <div className="text-wrapper">
-            <h2 className="title">
+        <div className="pain-ads">
+          <div className="text-wrapper pain-ads-text">
+            <h2 className="subheading activity-section__title">
               Avoid pain in the
               <br />
               ads distractions
               <br />
               with AdBlock
             </h2>
-            <button className="button">See more</button>
-            <ul className="list">
+            <button className="button advantages__button">See more</button>
+            <ul className="advantages-list">
               <li className="list-item">Block annoying pop‐ups & banners</li>
               <li className="list-item">Avoid unskippable video ads</li>
               <li className="list-item">Load pages faster</li>
@@ -55,8 +55,8 @@ const Advantages = () => {
           <Image
             src="/images/say-hello/avoid-pain.png"
             alt="The image of the mobile phone with the opened browser"
-            width="610"
-            height="775"
+            width="700"
+            height="870"
           />
         </div>
       </section>
@@ -66,7 +66,7 @@ const Advantages = () => {
             src="/images/say-hello/web-freely.png"
             alt="The image of the mobile phone with the opened bank app"
             width="610"
-            height="775"
+            height="870"
           />
           <div className="text-wrapper">
             <h2 className="title">
@@ -77,7 +77,7 @@ const Advantages = () => {
               Crypto Wallet
             </h2>
             <button className="button">See more</button>
-            <ul className="list">
+            <ul className="advantages-list">
               <li className="list-item">Buy, send & receive crypto</li>
               <li className="list-item">Swap over 300 tokens</li>
               <li className="list-item">Explore Web3 apps</li>

@@ -15,7 +15,7 @@ const SayHello = () => {
           />
         </div>
         <div className="say-hello__content">
-          <h2 className="say-hello__title">
+          <h2 className="subheading say-hello__title">
             <span className="say-hello__title-text">
               Say hello to digital freedom!
             </span>

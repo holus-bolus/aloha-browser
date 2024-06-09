@@ -191,6 +191,12 @@ const Header: React.FC = () => {
           </Menu>
           <div className="header-buttons-wrapper">
             <button className="header-profile-btn header-button header-profile-btn--transparent">
+              <Image
+                src="/images/header/profile.png"
+                alt="The smile icon"
+                width={15}
+                height={15}
+              ></Image>
               Profile
             </button>
             <button className="header-profile-btn header-button header-profile-btn--filled">

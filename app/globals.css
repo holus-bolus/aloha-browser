@@ -74,3 +74,23 @@ body {
   font-weight: 700;
   color: #001767;
 }
+
+
+.subheading{
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+color: #001767;
+}
+
+.button {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 65px;
+  cursor: pointer;
+}
+
