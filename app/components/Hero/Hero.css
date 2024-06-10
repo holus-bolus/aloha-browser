@@ -6,9 +6,7 @@ body {
 
 @media (max-width: 680px) {
   body {
-    background-image: url("/images/hero/hero-bg-small.svg");
-    background-position: top 290px left 100px;
-    background-repeat: no-repeat;
+    background-image: none;
   }
 }
 
@@ -26,6 +24,12 @@ body {
   position: relative;
   z-index: 1;
   padding-bottom: 50px;
+}
+
+@media (max-width: 680px) {
+  .hero__bg-wrapper {
+    background-image: none;
+  }
 }
 
 .hero-wrapper {

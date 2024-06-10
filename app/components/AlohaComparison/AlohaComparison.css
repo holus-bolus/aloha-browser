@@ -38,6 +38,11 @@ button.active {
   border: 1px solid #ccc;
 }
 
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .comparison-table {
   width: 100%;
   border-collapse: collapse;
@@ -87,13 +92,12 @@ button.active {
   border-bottom: none;
 }
 
-
 @media (max-width: 768px) {
   .comparison-table {
-    width: 40%;
+    width: 100%;
   }
 
   .table-header {
-    width: 40%;
+    width: 100%;
   }
 }

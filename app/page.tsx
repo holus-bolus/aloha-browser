@@ -18,7 +18,7 @@ export default function Home() {
       <BigPrivacy />
       <AdditionalAdvantages />
       <AlohaPremium />
-      {/*<AlohaComparison />*/}
+      <AlohaComparison />
       <Testimonials />
       <GetToKnow />
     </main>

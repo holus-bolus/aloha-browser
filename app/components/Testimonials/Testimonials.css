@@ -3,24 +3,12 @@
   padding-top: 135px;
 }
 
-@media (max-width: 960px) {
-  .testimonials {
-    max-width: 500px;
-  }
-}
 
 .testimonials__title {
   text-align: center;
   margin-bottom: 60px;
 }
 
-@media (max-width: 960px) {
-  .testimonials__title {
-    position: relative;
-    left: 50%;
-    max-width: 800px;
-  }
-}
 
 @media (max-width: 720px) {
   .testimonials__title {
@@ -42,16 +30,13 @@
 
 @media (max-width: 960px) {
   .testimonials__wrapper {
-    max-width: 920px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 50px;
+    width: 100%;
   }
 
-  .testimonials__reviews-wrapper {
-    width: 400px;
-  }
 }
 
 @media (max-width: 720px) {
@@ -69,6 +54,7 @@
     position: relative;
     left: 0;
   }
+
   .testimonials__wrapper {
     display: flex;
     flex-direction: column;
