@@ -1,0 +1,9 @@
+.vpn {
+  background-color: #0756cc;
+  border-radius: 20px;
+  padding: 60px;
+}
+
+.vpn__paragraph {
+  color: #ffffff;
+}

@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import Header from "@/app/components/Header/Header";
 import Footer from "@/app/components/Footer/Footer";
+import GetToKnow from "@/app/components/GetToKnow/GetToKnow";
 
 export default function RootLayout({
   children,
@@ -23,6 +24,7 @@ export default function RootLayout({
         <div className="container-full">
           <Header />
           {children}
+          <GetToKnow />
           <Footer />
         </div>
       </body>

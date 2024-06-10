@@ -1,7 +1,12 @@
 import React from "react";
+import VPNHero from "@/app/components/VpnHero/VPNHero";
 
 const VPN: React.FC = () => {
-  return <div>VPN</div>;
+  return (
+    <>
+      <VPNHero />
+    </>
+  );
 };
 
 export default VPN;
