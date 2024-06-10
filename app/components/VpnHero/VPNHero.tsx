@@ -2,6 +2,7 @@
 import "./VPNHero.css";
 import HideWhatDo from "@/app/components/HideWhatDo/HideWhatDo";
 import VpnMuchMore from "@/app/components/VpnMuchMore/VpnMuchMore";
+import StayProtected from "@/app/components/StayProtected/StayProtected";
 
 const VPNHero = () => {
   const handleButtonClick = () => {
@@ -70,6 +71,7 @@ const VPNHero = () => {
       </section>
       <HideWhatDo />
       <VpnMuchMore />
+      <StayProtected />
     </>
   );
 };

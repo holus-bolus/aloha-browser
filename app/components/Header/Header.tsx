@@ -119,7 +119,12 @@ const Header: React.FC = () => {
                         className="dropdown-item-icon"
                       />
                     )}
-                    <Link href={item.href} className="dropdown-item-link">
+                    <Link
+                      href={item.href}
+                      passHref={true}
+                      prefetch={false}
+                      className="dropdown-item-link"
+                    >
                       <Typography
                         style={{
                           fontFamily: "Pangram Sans, sans-serif",
