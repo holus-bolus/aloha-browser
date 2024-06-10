@@ -51,7 +51,7 @@
   padding: 15px 20px;
   font-size: 14px;
   cursor: pointer;
-  font-family: 'Pangram Sans', sans-serif;
+  font-family: "Pangram Sans", sans-serif;
 }
 
 .button-with-icon {
@@ -71,7 +71,7 @@
 }
 
 .dropdown-menu {
-  font-family: 'Pangram Sans', sans-serif;
+  font-family: "Pangram Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.4;
@@ -134,7 +134,7 @@
   font-weight: 700;
   font-size: 16px;
   text-transform: none;
-  min-width: 100px;
+  min-width: 40px;
   border-radius: 15px;
 }
 
@@ -144,12 +144,14 @@
   color: #0756cc;
   display: flex;
   gap: 15px;
+  padding: 10px;
 }
 
 .header-profile-btn--filled {
   background-color: #1a72e6;
   color: white;
   border: none;
+  padding: 10px;
 }
 
 .header-profile-btn--filled:hover {
@@ -166,9 +168,61 @@
   background-color: transparent !important;
 }
 
-
 .header-buttons-wrapper {
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+
+@media (max-width: 720px) {
+  .nav-list {
+    display: none;
+  }
+
+  .burger-menu-icon {
+    display: block;
+    position: relative;
+    left: auto;
+  }
+
+  .nav-actions {
+    position: relative;
+    top: -2px;
+    right: 0;
+  }
+  
+
+  .nav-actions .header-buttons-wrapper {
+    gap: 5px;
+  }
+
+  .header-buttons-wrapper button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-list.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+  }
+
+  .nav-list.open li {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (min-width: 721px) {
+  .burger-menu-icon {
+    display: none;
+  }
 }

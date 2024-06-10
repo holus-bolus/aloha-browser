@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button, Menu, MenuItem, Typography } from "@mui/material";
 import SouthIcon from "@mui/icons-material/South";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Header: React.FC = () => {
   const [featureAnchorEl, setFeatureAnchorEl] = useState<null | HTMLElement>(
@@ -13,6 +14,7 @@ const Header: React.FC = () => {
   const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(
     null,
   );
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const featureItems = [
     {
@@ -63,6 +65,10 @@ const Header: React.FC = () => {
     setLanguageAnchorEl(null);
   };
 
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen((prev) => !prev);
+  };
+
   return (
     <>
       <nav className="nav">
@@ -76,7 +82,10 @@ const Header: React.FC = () => {
               className="nav-logo-image"
             />
           </Link>
-          <ul className="nav-list">
+          <Button className="burger-menu-icon" onClick={toggleMobileMenu}>
+            <MenuIcon />
+          </Button>
+          <ul className={`nav-list ${mobileMenuOpen ? "open" : ""}`}>
             <li>
               <Button
                 aria-controls="feature-menu"
@@ -195,10 +204,16 @@ const Header: React.FC = () => {
                 alt="The smile icon"
                 width={15}
                 height={15}
-              ></Image>
+              />
               Profile
             </button>
             <button className="header-profile-btn header-button header-profile-btn--filled">
+              <Image
+                src="/images/header/header-download-icon.png"
+                alt="The download icon"
+                width={15}
+                height={15}
+              />
               Get Browser
             </button>
           </div>
