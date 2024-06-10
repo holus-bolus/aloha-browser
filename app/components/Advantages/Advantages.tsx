@@ -10,15 +10,14 @@ const Advantages = () => {
             src="/images/say-hello/hide-activity.png"
             alt="The image of the mobile phone with the opened browser"
             width="610"
+            loading="lazy"
             height="775"
           />
-          <div className="text-wrapper">
+          <div className="advantages__text-wrapper">
             <h2 className="subheading advantages__title">
-              Hide your
+              Hide your activity
               <br />
-              activity from
-              <br />
-              nosy people with
+              from nosy people with
               <br />
               the free VPN
             </h2>
@@ -35,7 +34,7 @@ const Advantages = () => {
       </section>
       <section className="activity-section">
         <div className="pain-ads">
-          <div className="text-wrapper pain-ads-text">
+          <div className="advantages__text-wrapper pain-ads-text">
             <h2 className="subheading advantages__title">
               Avoid pain in the
               <br />
@@ -56,6 +55,7 @@ const Advantages = () => {
             src="/images/say-hello/avoid-pain.png"
             alt="The image of the mobile phone with the opened browser"
             width="700"
+            loading="lazy"
             height="870"
           />
         </div>
@@ -67,8 +67,10 @@ const Advantages = () => {
             alt="The image of the mobile phone with the opened bank app"
             width="610"
             height="870"
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, 410px"
           />
-          <div className="text-wrapper">
+          <div className="advantages__text-wrapper">
             <h2 className="subheading advantages__title">
               Web freely with
               <br />

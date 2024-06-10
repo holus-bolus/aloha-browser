@@ -1,5 +1,4 @@
 "use client";
-import "./hero.css";
 import SayHello from "@/app/components/SayHello/SayHello";
 import Advantages from "@/app/components/Advantages/Advantages";
 import BigPrivacy from "@/app/components/BigPrivacy/BigPrivacy";

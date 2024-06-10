@@ -5,6 +5,7 @@ const Hero = () => {
   const handleButtonClick = () => {
     window.location.href = "https://www.alohabrowser.com/download.html";
   };
+
   return (
     <section className="hero">
       <div className="hero__bg-wrapper">
@@ -54,12 +55,17 @@ const Hero = () => {
               </ul>
             </div>
           </div>
-          <Image
-            src="/images/hero/banner.png"
-            alt="the banner"
-            width="1300"
-            height="800"
-          />
+          <div className="hero-image-container">
+            <Image
+              className="hero-image"
+              src="/images/hero/banner.png"
+              alt="the banner"
+              width="1300"
+              height="800"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, 1300px"
+            />
+          </div>
         </div>
       </div>
     </section>

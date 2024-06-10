@@ -25,3 +25,9 @@
 .say-hello__title-text{
   color:#34baff;
 }
+
+@media (max-width: 968px) {
+  .say-hello {
+    padding: 90px 0;
+  }
+}

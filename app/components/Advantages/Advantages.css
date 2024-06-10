@@ -2,17 +2,19 @@
   padding: 150px 0;
 }
 
+
+
 .activity-section {
   padding-bottom: 50px;
 }
 
-.activity-wrapper  {
+.activity-wrapper {
   display: flex;
   gap: 60px;
   align-items: center;
 }
 
-.pain-ads{
+.pain-ads {
   display: flex;
   gap: 65px;
   align-items: center;
@@ -22,7 +24,7 @@
   padding-left: 90px;
 }
 
-.text-wrapper {
+.advantages__text-wrapper {
   min-width: 500px;
 }
 
@@ -30,8 +32,8 @@
   margin-bottom: 30px;
 }
 
-.advantages__button {
 
+.advantages__button {
   margin-top: 45px;
   margin-bottom: 60px;
   padding: 10px 20px;
@@ -53,4 +55,32 @@
 
 .list-item {
   list-style-type: none;
+}
+
+/* Media query for tablets */
+@media (max-width: 960px) {
+  .activity-wrapper img,
+  .pain-ads img {
+    width: 400px;
+    height: 550px;
+  }
+
+  .text-wrapper {
+    min-width: auto;
+  }
+
+  .pain-ads-text {
+    padding-left: 0;
+  }
+
+  .advantages__text-wrapper {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  .advantages__title {
+    margin-bottom: 20px;
+  }
+  .pain-ads {
+    display: flex;
+    gap: 10px;}
 }
