@@ -11,14 +11,16 @@ import Testimonials from "@/app/components/Testimonials/Testimonials";
 export default function Home() {
   return (
     <main className="main">
-      <Hero />
-      <SayHello />
-      <Advantages />
-      <BigPrivacy />
-      <AdditionalAdvantages />
-      <AlohaPremium />
-      <AlohaComparison />
-      <Testimonials />
+      <div className="container-full">
+        <Hero />
+        <SayHello />
+        <Advantages />
+        <BigPrivacy />
+        <AdditionalAdvantages />
+        <AlohaPremium />
+        <AlohaComparison />
+        <Testimonials />
+      </div>
     </main>
   );
 }

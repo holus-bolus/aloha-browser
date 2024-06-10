@@ -143,6 +143,7 @@
   border: 1px solid #cbd5df;
   color: #0756cc;
   display: flex;
+  align-items: center;
   gap: 15px;
   padding: 10px;
 }

@@ -70,7 +70,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <>
+    <div className="container-full">
       <nav className="nav">
         <div className="nav-menu-wrapper">
           <Link href="/" className="nav-logo">
@@ -224,7 +224,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

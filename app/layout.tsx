@@ -21,12 +21,10 @@ export default function RootLayout({
         </title>
       </head>
       <body>
-        <div className="container-full">
-          <Header />
-          {children}
-          <GetToKnow />
-          <Footer />
-        </div>
+        <Header />
+        {children}
+        <GetToKnow />
+        <Footer />
       </body>
     </html>
   );

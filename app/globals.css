@@ -52,9 +52,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("../public/images/hero/hero-bg-big.svg");
-  background-repeat: no-repeat;
-  background-position: 130px 550px;
 }
 
 .container-full {

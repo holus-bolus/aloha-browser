@@ -1,9 +1,46 @@
 .vpn {
   background-color: #0756cc;
+  background-image: url("/images/vpn/vpn-hero-top-bg.png"), url("/images/vpn/vpn-hero-bottom-bg.png");
+  background-size: 600px, 1500px;
+  background-repeat: no-repeat;
+  background-position: top left, bottom;
   border-radius: 20px;
-  padding: 60px;
+}
+
+.vpn--bg-image-wrapper {
+  padding: 20px;
+}
+
+.vpn-header {
+  text-align: center;
+  font-size: 250px;
+  font-weight: 800;
 }
 
 .vpn__paragraph {
   color: #ffffff;
+}
+
+
+.vpn__buttons-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 35px;
+}
+
+
+.vpn__hero-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vpn__hero-image--1st {
+  margin-top: 135px;
+}
+
+
+.vpn__hero-image--2nd {
+  margin-top: 50px;
 }
