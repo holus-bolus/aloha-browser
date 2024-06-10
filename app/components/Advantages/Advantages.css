@@ -22,10 +22,6 @@
   padding-left: 90px;
 }
 
-.advantages__text-wrapper {
-  /* default styles */
-}
-
 .advantages__title,
 .activity-section__title {
   margin-bottom: 30px;
@@ -119,5 +115,32 @@
     order: 1;
     display: block;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-wrapper img {
+    width: 300px;
+    order: 1;
+  }
+
+  .pain-ads img {
+    width: 300px;
+  }
+
+  .advantages__title {
+    order: -1;
+  }
+
+  .advantages-list {
+    min-height: 400px;
+    overflow-y: hidden;
+  }
+  .advantages__list-item{
+    font-size: 18px;
+  }
+
+  .advantages__text-wrapper {
+    overflow-y: hidden;
   }
 }

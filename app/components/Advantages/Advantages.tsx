@@ -69,6 +69,7 @@ const Advantages = () => {
             width="700"
             height="870"
             loading="lazy"
+            sizes="(max-width: 360px) 100vw, 200px"
           />
         </div>
       </section>

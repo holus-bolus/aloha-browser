@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 680px) {
+  body {
+    background-image: url("/images/hero/hero-bg-small.svg");
+    background-position: top 290px left 100px;
+    background-repeat: no-repeat;
+  }
+}
+
 .hero {
   position: relative;
   z-index: 0;
@@ -108,8 +116,22 @@ body {
   .hero-image {
     width: 100%;
   }
+
   .hero-image-container {
     width: 100%;
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-header{
+    font-size: 36px;
+  }
+  .hero-header:last-of-type {
+    margin-bottom: 20px;
+  }
+  .button-icons-wrapper{
+    display: flex;
+    flex-direction: column;
   }
 }

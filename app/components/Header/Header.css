@@ -227,3 +227,13 @@
     display: none;
   }
 }
+
+@media (max-width: 360px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-menu-wrapper{
+
+  }
+}
