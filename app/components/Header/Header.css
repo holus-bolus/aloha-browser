@@ -183,6 +183,7 @@
   .burger-menu-icon {
     display: block;
     position: relative;
+    top: 5px;
     left: auto;
   }
 
@@ -191,7 +192,7 @@
     top: -2px;
     right: 0;
   }
-  
+
 
   .nav-actions .header-buttons-wrapper {
     gap: 5px;

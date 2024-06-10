@@ -16,68 +16,70 @@ const GetToKnow = () => {
       <h2 className="get-to-know__heading">Get to know Aloha</h2>
       <ul className="get-to-know__list">
         <li className="get-to-know__item get-to-know__item--vpn">
-          <a href="#">
+          <a href="#" className="get-to-know__inner-item-link">
+            <h3 className="get-to-know__subheading">VPN</h3>
             <Image
               src="/images/get-to-know/vpn.png"
               alt="The icon of the planet in glasses"
               width={150}
               height={135}
             />
-            <h3 className="get-to-know__subheading">VPN</h3>
           </a>
         </li>
         <li className="get-to-know__item get-to-know__item--adblock">
-          <a href="#">
+          <a href="#" className="get-to-know__inner-item-link">
+            <h3 className="get-to-know__subheading">Ad block</h3>
             <Image
               src="/images/get-to-know/adblock.png"
               alt="The raised hand"
               width={120}
               height={145}
             />
-            <h3 className="get-to-know__subheading">Ad block</h3>
           </a>
         </li>
         <li className="get-to-know__item get-to-know__item--privacy">
-          <a href="#">
+          <a href="#" className="get-to-know__inner-item-link">
+            <h3 className="get-to-know__subheading">Privacy</h3>
             <Image
               src="/images/get-to-know/privacy.png"
               alt="The secure icon"
               width={125}
               height={150}
             />
-            <h3 className="get-to-know__subheading">Privacy</h3>
           </a>
         </li>
         <li className="get-to-know__item get-to-know__item--wallet">
-          <a href="#">
+          <a href="#" className="get-to-know__inner-item-link">
+            <h3 className="get-to-know__subheading">Wallet</h3>
             <Image
               src="/images/get-to-know/wallet.png"
               alt="The wallet icon"
               width={120}
               height={150}
             />
-            <h3 className="get-to-know__subheading">Wallet</h3>
           </a>
         </li>
         <li className="get-to-know__item get-to-know__item--others">
-          Others
-          <ul className="get-to-know__item-inner-list">
-            <li className="get-to-know__item-inner-el">
-              <a href="#">Browsing</a>
-            </li>
-            <li className="get-to-know__item-inner-el">
-              <a href="#">File manager</a>
-            </li>
-            <li className="get-to-know__item-inner-el">
-              <a href="#">Media player</a>
-            </li>
-            <li className="get-to-know__item-inner-el">
-              <a href="#">Profile</a>
-            </li>
-            <li className="get-to-know__item-inner-el">
-              <a href="#">Appearance</a>
-            </li>
-          </ul>
+          <div className="get-to-know__inner-item-others">
+            <h3 className="get-to-know__subheading">Others</h3>
+            <ul className="get-to-know__item-inner-list">
+              <li className="get-to-know__item-inner-el">
+                <a href="#">Browsing</a>
+              </li>
+              <li className="get-to-know__item-inner-el">
+                <a href="#">File manager</a>
+              </li>
+              <li className="get-to-know__item-inner-el">
+                <a href="#">Media player</a>
+              </li>
+              <li className="get-to-know__item-inner-el">
+                <a href="#">Profile</a>
+              </li>
+              <li className="get-to-know__item-inner-el">
+                <a href="#">Appearance</a>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
       <div className="get-to-know__bottom-links-wrapper">

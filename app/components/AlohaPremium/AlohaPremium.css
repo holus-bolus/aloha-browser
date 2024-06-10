@@ -5,6 +5,12 @@
   background-position: left 250px top 380px, right 180px bottom 380px;
 }
 
+@media (max-width: 720px) {
+  .aloha-premium {
+    background-image: none;
+  }
+}
+
 .aloha-premium__title {
   text-align: center;
   margin-bottom: 15px;

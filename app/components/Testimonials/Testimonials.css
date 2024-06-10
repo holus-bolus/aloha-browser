@@ -13,11 +13,20 @@
   text-align: center;
   margin-bottom: 60px;
 }
+
 @media (max-width: 960px) {
   .testimonials__title {
     position: relative;
     left: 50%;
     max-width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+  .testimonials__title {
+    position: relative;
+    left: 20%;
+    max-width: 600px;
   }
 }
 
@@ -39,8 +48,18 @@
     align-items: center;
     gap: 50px;
   }
+
   .testimonials__reviews-wrapper {
     width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  .testimonials__wrapper {
+    max-width: 920px;
+  }
+  .testimonials__reviews-wrapper {
+    width: 300px;
   }
 }
 
@@ -64,6 +83,12 @@
   font-size: 196px;
   font-weight: 700;
   color: #ffffff;
+}
+
+@media (max-width: 960px) {
+  .testimonials__average {
+    font-size: 120px;
+  }
 }
 
 .testimonials__button-wrapper {

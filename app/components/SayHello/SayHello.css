@@ -17,17 +17,25 @@
 }
 
 
-.say-hello__title{
+.say-hello__title {
   color: #001767;
   letter-spacing: -1.3px;
 }
 
-.say-hello__title-text{
-  color:#34baff;
+.say-hello__title-text {
+  color: #34baff;
 }
 
 @media (max-width: 968px) {
   .say-hello {
     padding: 90px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .say-hello__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

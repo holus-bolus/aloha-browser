@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <main className="main">
       <Hero />
-      {/*<SayHello />*/}
-      {/*<Advantages />*/}
-      {/*<BigPrivacy />*/}
-      {/*<AdditionalAdvantages />*/}
-      {/*<AlohaPremium />*/}
-      {/*<AlohaComparison />*/}
-      {/*<Testimonials />*/}
-      {/*<GetToKnow />*/}
+      <SayHello />
+      <Advantages />
+      <BigPrivacy />
+      <AdditionalAdvantages />
+      <AlohaPremium />
+      <AlohaComparison />
+      <Testimonials />
+      <GetToKnow />
     </main>
   );
 }
