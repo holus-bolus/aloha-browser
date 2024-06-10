@@ -10,6 +10,12 @@ body {
   }
 }
 
+@media (max-width: 770px) {
+  body {
+    background-image: none;
+  }
+}
+
 .hero {
   position: relative;
   z-index: 0;
