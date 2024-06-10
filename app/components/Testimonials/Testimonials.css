@@ -1,22 +1,47 @@
+
 .testimonials {
   padding-top: 135px;
-  min-width: 1100px;
+}
+
+@media (max-width: 960px) {
+  .testimonials {
+    max-width: 500px;
+  }
 }
 
 .testimonials__title {
   text-align: center;
   margin-bottom: 60px;
 }
+@media (max-width: 960px) {
+  .testimonials__title {
+    position: relative;
+    left: 50%;
+    max-width: 800px;
+  }
+}
 
 .testimonials__wrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 180px;
 }
 
 .testimonials__reviews-wrapper {
-  min-width: 600px;
+  width: 600px;
+}
+
+@media (max-width: 960px) {
+  .testimonials__wrapper {
+    max-width: 920px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+  }
+  .testimonials__reviews-wrapper {
+    width: 400px;
+  }
 }
 
 .testimonials__apple-store-badge {
@@ -28,7 +53,6 @@
   background-color: #74dbfb;
   border-radius: 10px;
   margin-bottom: 50px;
-
 }
 
 .testimonials__apple-number-wrapper {
@@ -72,6 +96,12 @@
   color: #001767;
 }
 
+@media (max-width: 960px) {
+  .testimonials__item-text {
+    font-size: 24px;
+  }
+}
+
 .testimonnials__item-name {
   color: #0756cc;
   font-size: 20px;
@@ -99,3 +129,5 @@
   display: flex;
   justify-content: space-between;
 }
+
+

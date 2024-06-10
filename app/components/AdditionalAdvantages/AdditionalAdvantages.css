@@ -1,4 +1,4 @@
-.additional-advantages{
+.additional-advantages {
   padding: 80px 0;
 }
 
@@ -23,6 +23,17 @@
   font-weight: 900;
   line-height: 1.4;
   margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+  .additional-advantages__subheading {
+    font-size: 40px;
+  }
+
+  .additinal-advandages__inner-list {
+    font-size: 18px;
+  }
+
 }
 
 .additional-advantages__subheading--light-blue {
@@ -57,7 +68,7 @@
   color: #ff9302;
 }
 
-.additional-advantages__button-wrapper{
+.additional-advantages__button-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
