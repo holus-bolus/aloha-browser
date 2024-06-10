@@ -26,18 +26,37 @@
   gap: 20px;
 }
 
+@media (max-width: 960px) {
+  .big-privacy__item {
+    display: flex;
+    gap: 50px;
+    max-width: 360px;
+  }
+}
+
 .big-privacy__list-title {
   margin-bottom: 20px;
 }
+@media (max-width: 960px) {
+  .big-privacy__list-title {
+    font-size:18px;
+  }
+
+}
 
 
-.big-privacy__list-desc{
+.big-privacy__list-desc {
   font-size: 24px;
   font-weight: 500;
   color: #001767;
 }
+@media (max-width: 960px) {
+  .big-privacy__list-desc {
+    font-size: 18px;
+  }
+}
 
-.big-privacy__button-wrapper{
+.big-privacy__button-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 40px;
