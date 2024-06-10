@@ -1,8 +1,9 @@
 "use client";
 import "./reset.css";
 import "./globals.css";
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "@/app/components/Header/Header";
+import Footer from "@/app/components/Footer/Footer";
 
 export default function RootLayout({
   children,
@@ -22,6 +23,7 @@ export default function RootLayout({
         <div className="container-full">
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

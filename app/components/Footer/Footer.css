@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/images/footer/Pattern.png");
+  background-repeat: no-repeat;
+  background-position: bottom 0 right 0;
+  background-size: contain;
+}
+
+.footer__terms-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+
+.footer__terms-link, .footer__terms-item {
+  color: #001767;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer__social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social-media-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__social-media-item {
+  margin-right: 10px;
+}
+
+.footer__social-media-link {
+  text-decoration: none;
+}
+
+.footer__social-media-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer__social-media-button {
+  background-color: #001767;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+}
+
+.footer__social-media-button:hover {
+  background-color: #003399;
+}
