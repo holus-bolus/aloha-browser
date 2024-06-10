@@ -35,6 +35,12 @@
   min-width: 650px;
 }
 
+@media (max-width: 720px) {
+  .aloha-premium__list {
+    min-width: auto;
+  }
+}
+
 .aloha-premium__features-list {
   margin-bottom: 50px;
   display: flex;
@@ -75,6 +81,18 @@
   justify-content: center;
   gap: 80px;
   align-items: center;
+}
+
+@media (max-width: 720px) {
+  .aloha-premium__buttons-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aloha-premium__button, .aloha-premium__button--filled, .aloha-premium__button--transparent{
+    padding: 15px 40px;
+    font-size: 18px;
+    width: 320px;
+  }
 }
 
 .aloha-premium__button {

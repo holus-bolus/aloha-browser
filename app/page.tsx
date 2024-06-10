@@ -15,12 +15,12 @@ export default function Home() {
       <Hero />
       <SayHello />
       <Advantages />
-      {/*<BigPrivacy />*/}
-      {/*<AdditionalAdvantages />*/}
-      {/*<AlohaPremium />*/}
+      <BigPrivacy />
+      <AdditionalAdvantages />
+      <AlohaPremium />
       {/*<AlohaComparison />*/}
-      {/*<Testimonials />*/}
-      {/*<GetToKnow />*/}
+      <Testimonials />
+      <GetToKnow />
     </main>
   );
 }

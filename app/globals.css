@@ -83,12 +83,23 @@ body {
   color: #001767;
 }
 
+@media (max-width: 960px) {
+  .description {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 720px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
 .list-subtitle {
   font-size: 32px;
   font-weight: 700;
   color: #001767;
 }
-
 
 .subheading {
   font-size: 64px;
@@ -100,9 +111,6 @@ body {
 @media (max-width: 960px) {
   .subheading {
     font-size: 40px;
-  }
-  .description{
-    font-size: 24px;
   }
 }
 
@@ -118,4 +126,3 @@ body {
   margin-bottom: 65px;
   cursor: pointer;
 }
-

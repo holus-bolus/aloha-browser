@@ -2,6 +2,13 @@
   padding: 150px 0;
 }
 
+@media (max-width: 720px) {
+  .advantages {
+    padding: 0;
+  }
+
+}
+
 .activity-section {
   padding-bottom: 50px;
 }

@@ -86,3 +86,14 @@ button.active {
 .comparison-table .no-border {
   border-bottom: none;
 }
+
+
+@media (max-width: 768px) {
+  .comparison-table {
+    width: 40%;
+  }
+
+  .table-header {
+    width: 40%;
+  }
+}

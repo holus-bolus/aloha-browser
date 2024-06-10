@@ -58,8 +58,20 @@
   .testimonials__wrapper {
     max-width: 920px;
   }
+
   .testimonials__reviews-wrapper {
     width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials__title {
+    position: relative;
+    left: 0;
+  }
+  .testimonials__wrapper {
+    display: flex;
+    flex-direction: column;
   }
 }
 
