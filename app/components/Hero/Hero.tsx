@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
           </div>
           <Image
-            src="/images/banner.png"
+            src="/images/hero/banner.png"
             alt="the banner"
             width="1300"
             height="800"

@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button, Menu, MenuItem, Typography } from "@mui/material";
-import { ArrowDropDown } from "@mui/icons-material";
 import SouthIcon from "@mui/icons-material/South";
 
 const Header: React.FC = () => {
