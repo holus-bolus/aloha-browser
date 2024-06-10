@@ -20,7 +20,7 @@ export default function Home() {
       <AlohaPremium />
       <AlohaComparison />
       <Testimonials />
-      {/*<GetToKnow />*/}
+      <GetToKnow />
     </main>
   );
 }
