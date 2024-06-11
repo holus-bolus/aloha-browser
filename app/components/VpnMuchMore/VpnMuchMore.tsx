@@ -8,10 +8,10 @@ const VpnMuchMore = () => {
       <div className="vpn-more__list-wrapper">
         <ul className="vpn-more__list">
           <li className="vpn-more__list-item vpn-more__list-item--light-blue">
-            <h3 className="description vpn-more__description-heading">
+            <h3 className="description vpn-more__description-heading vpn-more__description-heading--center">
               Easy to start
             </h3>
-            <p className="list-description vpn-more__description vpn-more__description--gap">
+            <p className="list-description vpn-more__description vpn-more__description-heading--center vpn-more__description--gap">
               Getting started is stupidly easy — quite literally at the tap of a
               button
             </p>

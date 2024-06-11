@@ -1,3 +1,12 @@
+.vpn-more {
+  background-image: url("/images/vpn/much-more-left-bg.png"), url("/images/vpn/much-more-right-bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 140px, 435px;
+  background-position: top 250px left 120px, top 290px right 150px;
+  padding-top: 75px;
+  padding-bottom: 200px;
+}
+
 .vpn__subheading {
   text-align: center;
   margin-bottom: 90px;
@@ -81,12 +90,12 @@
   padding-left: 20px;
 }
 
-.vpn-more__list-item--light-green{
+.vpn-more__list-item--light-green {
   background-color: #cef976;
   padding: 30px;
 }
 
-.vpn-more__list-item--connection{
+.vpn-more__list-item--connection {
   background-color: #ecf3f8;
   padding: 30px;
 }
