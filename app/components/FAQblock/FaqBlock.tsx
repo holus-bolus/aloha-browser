@@ -46,20 +46,22 @@ const FaqBlock: React.FC = () => {
   )?.answer;
 
   return (
-    <div className="faq-block">
-      <div className="faq-questions">
-        {questions.map((q) => (
-          <div
-            key={q.id}
-            className={`faq-question ${selectedQuestion === q.id ? "active" : ""}`}
-            onClick={() => handleQuestionClick(q.id)}
-          >
-            {q.question}
-          </div>
-        ))}
-      </div>
-      <div className="faq-answer">
-        {selectedAnswer && <p>{selectedAnswer}</p>}
+    <div className="faq-block-wrapper">
+      <div className="faq-block">
+        <div className="faq-questions">
+          {questions.map((q) => (
+            <div
+              key={q.id}
+              className={`faq-question ${selectedQuestion === q.id ? "active" : ""}`}
+              onClick={() => handleQuestionClick(q.id)}
+            >
+              {q.question}
+            </div>
+          ))}
+        </div>
+        <div className="faq-answer">
+          {selectedAnswer && <p>{selectedAnswer}</p>}
+        </div>
       </div>
     </div>
   );
