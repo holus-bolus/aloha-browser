@@ -1,0 +1,33 @@
+.stay-protected {
+  background-color: #0756cc;
+  border-radius: 30px;
+  background-image: url("/images/stay-protected/stay-proteted-inner.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -5px right -5px;
+  background-size: 220px 180px;
+}
+
+.stay-protected__text-wrapper {
+  padding: 20px;
+}
+
+.stay-protected__heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.stay-protected__description {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.stay-protected__button-wrapper {
+  display: flex;
+  gap: 30px;
+}
