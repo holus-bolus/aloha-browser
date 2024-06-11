@@ -109,22 +109,17 @@ const Header: React.FC = () => {
                 onClose={handleFeatureMenuClose}
               >
                 {featureItems.map((item) => (
-                  <MenuItem key={item.key} onClick={handleFeatureMenuClose}>
-                    {item.icon && (
-                      <Image
-                        src={item.icon}
-                        alt={item.label}
-                        width={20}
-                        height={20}
-                        className="dropdown-item-icon"
-                      />
-                    )}
-                    <Link
-                      href={item.href}
-                      passHref={true}
-                      prefetch={false}
-                      className="dropdown-item-link"
-                    >
+                  <Link href={item.href} key={item.key} passHref>
+                    <MenuItem onClick={handleFeatureMenuClose}>
+                      {item.icon && (
+                        <Image
+                          src={item.icon}
+                          alt={item.label}
+                          width={20}
+                          height={20}
+                          className="dropdown-item-icon"
+                        />
+                      )}
                       <Typography
                         style={{
                           fontFamily: "Pangram Sans, sans-serif",
@@ -135,8 +130,8 @@ const Header: React.FC = () => {
                       >
                         {item.label}
                       </Typography>
-                    </Link>
-                  </MenuItem>
+                    </MenuItem>
+                  </Link>
                 ))}
               </Menu>
             </li>
@@ -186,8 +181,8 @@ const Header: React.FC = () => {
             onClose={handleLanguageMenuClose}
           >
             {languageItems.map((item) => (
-              <MenuItem key={item.key} onClick={handleLanguageMenuClose}>
-                <Link href={item.href} className="dropdown-item-link">
+              <Link href={item.href} key={item.key} passHref>
+                <MenuItem onClick={handleLanguageMenuClose}>
                   <Typography
                     style={{
                       fontFamily: "Pangram Sans, sans-serif",
@@ -198,8 +193,8 @@ const Header: React.FC = () => {
                   >
                     {item.label}
                   </Typography>
-                </Link>
-              </MenuItem>
+                </MenuItem>
+              </Link>
             ))}
           </Menu>
           <div className="header-buttons-wrapper">
