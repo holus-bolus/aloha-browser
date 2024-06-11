@@ -7,7 +7,7 @@ const VpnMuchMore = () => {
       <h2 className="subheading vpn__subheading">And much more</h2>
       <div className="vpn-more__list-wrapper">
         <ul className="vpn-more__list">
-          <li className="vpn-more__list-item vpn-more__list-item--blue">
+          <li className="vpn-more__list-item vpn-more__list-item--light-blue">
             <h3 className="description vpn-more__description-heading">
               Easy to start
             </h3>
@@ -78,7 +78,7 @@ const VpnMuchMore = () => {
           </li>
         </ul>
         <ul className="vpn-more__list vpn-more__list--lower">
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--purple">
             <Image
               src="/images/vpn/free-unlimited.png"
               alt="The phone with the Aloha browser opened"
@@ -96,8 +96,8 @@ const VpnMuchMore = () => {
               worrying about limits
             </p>
           </li>
-          <li className="vpn-more__list-item">
-            <h3 className="description vpn-more__description-heading">
+          <li className="vpn-more__list-item vpn-more__list-item--blue">
+            <h3 className="description vpn-more__description-heading vpn-more__description-heading--center">
               80+ locations
             </h3>
             <p className="list-description vpn-more__description">
@@ -112,7 +112,7 @@ const VpnMuchMore = () => {
               className="vpn-more__list-item-img"
             />
           </li>
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--light-green">
             <Image
               src="/images/vpn/phone-protection.png"
               alt="The phone with the Aloha browser opened"
@@ -129,7 +129,7 @@ const VpnMuchMore = () => {
               Aloha Browser
             </p>
           </li>
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--connection">
             <Image
               src="/images/vpn/always-connection.png"
               alt="The phone with the Aloha browser opened"
