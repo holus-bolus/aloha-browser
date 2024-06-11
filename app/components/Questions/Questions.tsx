@@ -1,9 +1,9 @@
 import FaqBlock from "@/app/components/FAQblock/FaqBlock";
-
+import "./Questions.css";
 const Questions = () => {
   return (
-    <section>
-      <h2 className="hero-header">Questions</h2>
+    <section className="questions">
+      <h2 className="hero-header questions__header">Questions</h2>
       <FaqBlock />
     </section>
   );

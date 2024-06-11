@@ -4,6 +4,7 @@ import HideWhatDo from "@/app/components/HideWhatDo/HideWhatDo";
 import VpnMuchMore from "@/app/components/VpnMuchMore/VpnMuchMore";
 import StayProtected from "@/app/components/StayProtected/StayProtected";
 import FaqBlock from "@/app/components/FAQblock/FaqBlock";
+import Questions from "@/app/components/Questions/Questions";
 
 const VPNHero = () => {
   const handleButtonClick = () => {
@@ -79,7 +80,7 @@ const VPNHero = () => {
       <HideWhatDo />
       <VpnMuchMore />
       <StayProtected />
-      <FaqBlock />
+      <Questions />
     </div>
   );
 };
