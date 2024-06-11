@@ -99,3 +99,30 @@
   background-color: #ecf3f8;
   padding: 30px;
 }
+
+@media (max-width: 720px) {
+  .vpn-more {
+    padding-bottom: 500px;
+  }
+
+  .vpn-more__list {
+    width: 90%;
+  }
+
+  .vpn-more__list-item {
+    width: 100%;
+  }
+
+  .vpn-more__list-item-img {
+    width: 99%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .vpn-more__list-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -17,6 +17,7 @@
   font-weight: 800;
 }
 
+
 .vpn__paragraph {
   color: #ffffff;
 }
@@ -43,4 +44,54 @@
 
 .vpn__hero-image--2nd {
   margin-top: 50px;
+}
+
+@media (max-width: 960px) {
+  .vpn-header {
+    font-size: 190px;
+  }
+
+  .vpn__image-item {
+    width: 280px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .vpn {
+    background-size: 400px, 1000px;
+  }
+
+  .vpn-header {
+    font-size: 160px;
+  }
+
+  .vpn__hero-image--1st {
+    display: none;
+  }
+}
+
+.vpn-header {
+  font-size: 140px;
+}
+
+.vpn__hero-image--1st {
+  display: none;
+}
+
+
+@media (max-width: 370px) {
+  .vpn {
+    background-size: 200px, 500px;
+  }
+
+  .vpn-header {
+    font-size: 64px;
+  }
+  .vpn__buttons-wrapper{
+    flex-direction: column;
+  }
+  .vpn__hero-image--3rd{
+    display: none;
+  }
 }

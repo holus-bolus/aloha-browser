@@ -59,18 +59,21 @@ const VPNHero = () => {
                 <img
                   src="/images/vpn/VPN_2.png"
                   alt="A mobile phone with the aloha browser"
+                  className="vpn__image-item"
                 />
               </li>
               <li className="vpn__hero-image vpn__hero-image--2nd">
                 <img
                   src="/images/vpn/VPN_3.png"
                   alt="A mobile phone with the aloha browser"
+                  className="vpn__image-item"
                 />
               </li>
-              <li className="vpn__hero-image">
+              <li className="vpn__hero-image vpn__hero-image--3rd">
                 <img
                   src="/images/vpn/VPN_1.png"
                   alt="A mobile phone with the aloha browser"
+                  className="vpn__image-item"
                 />
               </li>
             </ul>
