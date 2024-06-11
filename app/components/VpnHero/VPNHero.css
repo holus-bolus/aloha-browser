@@ -75,14 +75,14 @@
   font-size: 140px;
 }
 
-.vpn__hero-image--1st {
-  display: none;
-}
 
 
 @media (max-width: 370px) {
   .vpn {
     background-size: 200px, 500px;
+  }
+  .vpn__hero-image--1st {
+    display: none;
   }
 
   .vpn-header {

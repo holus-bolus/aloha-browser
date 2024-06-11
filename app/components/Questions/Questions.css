@@ -87,3 +87,9 @@
   align-items: center;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+.questions__header{
+  font-size: 36px;
+}
+}
