@@ -47,7 +47,6 @@
 }
 
 .header-button {
-  margin-left: 10px;
   padding: 15px 20px;
   font-size: 14px;
   cursor: pointer;
@@ -136,6 +135,10 @@
   text-transform: none;
   min-width: 40px;
   border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  align-items: center;
 }
 
 .header-profile-btn--transparent {
@@ -235,7 +238,7 @@
     flex-direction: column;
   }
 
-  .nav-actions{
+  .nav-actions {
     display: none;
   }
 
