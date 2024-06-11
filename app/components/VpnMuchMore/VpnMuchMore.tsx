@@ -7,11 +7,11 @@ const VpnMuchMore = () => {
       <h2 className="subheading vpn__subheading">And much more</h2>
       <div className="vpn-more__list-wrapper">
         <ul className="vpn-more__list">
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--blue">
             <h3 className="description vpn-more__description-heading">
               Easy to start
             </h3>
-            <p className="list-description vpn-more__description">
+            <p className="list-description vpn-more__description vpn-more__description--gap">
               Getting started is stupidly easy — quite literally at the tap of a
               button
             </p>
@@ -21,15 +21,17 @@ const VpnMuchMore = () => {
               width={360}
               height={475}
               loading="lazy"
+              className="vpn-more__list-item-img"
             />
           </li>
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--yellow">
             <Image
               src="/images/vpn/encrypted.png"
               alt="The rectangles that represent the data encryption"
               width={360}
               height={475}
               loading="lazy"
+              className="vpn-more__list-item-img"
             />
             <h3 className="description vpn-more__description">
               Everything encrypted
@@ -40,13 +42,14 @@ const VpnMuchMore = () => {
               encryption
             </p>
           </li>
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--light-blue">
             <Image
               src="/images/vpn/no-logs.png"
               alt="The box with the documents and the red cross"
               width={290}
               height={290}
               loading="lazy"
+              className="vpn-more__list-item-img"
             />
             <h3 className="description vpn-more__description-heading">
               No logs & no data collection
@@ -56,13 +59,14 @@ const VpnMuchMore = () => {
               your private data with third parties — or us
             </p>
           </li>
-          <li className="vpn-more__list-item">
+          <li className="vpn-more__list-item vpn-more__list-item--purple">
             <Image
               src="/images/vpn/autostart.png"
               alt="The on-off"
               width={275}
               height={275}
               loading="lazy"
+              className="vpn-more__list-item-img"
             />
             <h3 className="description vpn-more__description-heading">
               Autostart
@@ -75,6 +79,14 @@ const VpnMuchMore = () => {
         </ul>
         <ul className="vpn-more__list vpn-more__list--lower">
           <li className="vpn-more__list-item">
+            <Image
+              src="/images/vpn/free-unlimited.png"
+              alt="The phone with the Aloha browser opened"
+              width={360}
+              height={360}
+              loading="lazy"
+              className="vpn-more__list-item-img"
+            />
             <h3 className="description vpn-more__description-heading">
               Free & unlimited
             </h3>
@@ -91,8 +103,24 @@ const VpnMuchMore = () => {
             <p className="list-description vpn-more__description">
               Mix things up by choosing from over 80 exclusive VPN locations
             </p>
+            <Image
+              src="/images/vpn/80-locations.png"
+              alt="The phone with the Aloha browser opened"
+              width={360}
+              height={475}
+              loading="lazy"
+              className="vpn-more__list-item-img"
+            />
           </li>
           <li className="vpn-more__list-item">
+            <Image
+              src="/images/vpn/phone-protection.png"
+              alt="The phone with the Aloha browser opened"
+              width={360}
+              height={360}
+              loading="lazy"
+              className="vpn-more__list-item-img"
+            />
             <h3 className="description vpn-more__description-heading">
               Phone‐wide protection
             </h3>
@@ -102,6 +130,14 @@ const VpnMuchMore = () => {
             </p>
           </li>
           <li className="vpn-more__list-item">
+            <Image
+              src="/images/vpn/always-connection.png"
+              alt="The phone with the Aloha browser opened"
+              width={360}
+              height={360}
+              loading="lazy"
+              className="vpn-more__list-item-img"
+            />
             <h3 className="description vpn-more__description-heading">
               Always on connection
             </h3>

@@ -14,15 +14,58 @@
   width: 420px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .vpn-more__list-item {
   min-height: 585px;
   width: 420px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vpn-more__list-item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .vpn-more__list--lower {
   position: relative;
   top: 120px;
+}
+
+.vpn-more__list-item--blue {
+  background-color: #ecf3f8;
+  padding-top: 85px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.vpn-more__description-heading {
+  text-align: left;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.vpn-more__description--gap {
+  margin-bottom: 40px;
+}
+
+.vpn-more__list-item--yellow {
+  background-color: #ffef18;
+  padding: 30px;
+}
+
+.vpn-more__list-item--light-blue {
+  background-color: #ecf3f8;
+  padding: 30px;
+}
+
+.vpn-more__list-item--purple {
+  background-color: #ffdbe9;
+  padding: 30px;
 }
