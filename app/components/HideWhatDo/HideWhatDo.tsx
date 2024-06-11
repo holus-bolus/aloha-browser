@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import "./HideWhatYouDo.css";
 
 const images = [
@@ -10,11 +10,33 @@ const images = [
 ];
 
 const HideWhatDo = () => {
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleItemClick = (index: number) => {
-    setSelectedIndex(index === selectedIndex ? null : index);
+    setSelectedIndex(index);
+    resetTimer();
   };
+
+  const autoScroll = useCallback(() => {
+    setSelectedIndex((prevIndex) => (prevIndex + 1) % images.length);
+  }, []);
+
+  const resetTimer = useCallback(() => {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+    }
+    timerRef.current = setInterval(autoScroll, 2000);
+  }, [autoScroll]);
+
+  useEffect(() => {
+    resetTimer();
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+      }
+    };
+  }, [resetTimer]);
 
   return (
     <section className="hide-what-do">
@@ -49,22 +71,28 @@ const HideWhatDo = () => {
               }`}
               onClick={() => handleItemClick(index)}
             >
-              <h2 className="subheading hide-what-do__subheading">
-                {item.title}
-              </h2>
-              <p className="list-subtitle hide-what-do__text">{item.text}</p>
+              <div className="hide-what-do__content">
+                <div className="hide-what-do__text-content">
+                  <h2 className="subheading hide-what-do__subheading">
+                    {item.title}
+                  </h2>
+                  <p className="list-subtitle hide-what-do__text">
+                    {item.text}
+                  </p>
+                </div>
+                <div className="hide-what-do__image-wrapper">
+                  <img
+                    src={images[index]}
+                    alt={`Illustration for ${index}`}
+                    className={`hide-what-do__image ${
+                      selectedIndex === index ? "active" : ""
+                    }`}
+                  />
+                </div>
+              </div>
             </li>
           ))}
         </ul>
-        <div className="hide-what-do__image-wrapper">
-          {selectedIndex !== null && (
-            <img
-              src={images[selectedIndex]}
-              alt={`Illustration for ${selectedIndex}`}
-              className="hide-what-do__image"
-            />
-          )}
-        </div>
       </div>
     </section>
   );
