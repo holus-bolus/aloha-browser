@@ -1,0 +1,28 @@
+.vpn__subheading {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.vpn-more__list-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vpn-more__list {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vpn-more__list-item {
+  min-height: 585px;
+  width: 420px;
+}
+
+.vpn-more__list--lower {
+  position: relative;
+  top: 120px;
+}

@@ -29,7 +29,6 @@
 
 .hide-what-do__item:hover,
 .hide-what-do__item.active {
-  background-color: #f0f0f0;
   opacity: 1;
 }
 
